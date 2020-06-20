@@ -67,6 +67,7 @@ class PerfBADA(TrafficArrays):
 
             self.vmo        = np.array([])   # max operating speed [m/s]
             self.mmo        = np.array([])   # max operating mach number [-]
+            self.vmax       = np.array([])   # max speed (copy of vmo)
             self.hmax       = np.array([])   # max. alt above standard MSL (ISA) at MTOW [m]
             self.hmaxact    = np.array([])   # max. alt depending on temperature gradient [m]
             self.hmo        = np.array([])   # max. operating alt abov standard MSL [m]
@@ -146,7 +147,7 @@ class PerfBADA(TrafficArrays):
             self.cf_cruise   = np.array([])   # [-]
 
             # performance
-            self.thrust         = np.array([])   # thrust
+            self.thrust      = np.array([])   # thrust
             self.D           = np.array([])   # drag
             self.fuelflow    = np.array([])   # fuel flow
 
@@ -210,6 +211,7 @@ class PerfBADA(TrafficArrays):
         self.vmin[-n:]      = 0.0
         self.vmo[-n:]       = coeff.VMO * kts
         self.mmo[-n:]       = coeff.MMO
+        self.vmax[-n:]      = self.vmo[-n:]
 
         # max. altitude parameters
         self.hmo[-n:]       = coeff.h_MO * ft
@@ -366,7 +368,7 @@ class PerfBADA(TrafficArrays):
         lvl = np.array(np.abs(delalt)<0.0001)*1
 
         # energy share factor
-        delspd = bs.traf.pilot.tas - bs.traf.tas
+        delspd = bs.traf.aporasas.tas - bs.traf.tas
         selmach = bs.traf.selspd < 2.0
         self.ESF = esf(bs.traf.alt, bs.traf.M, climb, descent, delspd, selmach)
 
@@ -445,7 +447,7 @@ class PerfBADA(TrafficArrays):
         # switch for given vertical speed selvs
         if (bs.traf.selvs.any()>0.) or (bs.traf.selvs.any()<0.):
             # thrust = f(selvs)
-            T = ((bs.traf.selvs!=0)*(((bs.traf.pilot.vs*self.mass*g0)/     \
+            T = ((bs.traf.selvs!=0)*(((bs.traf.aporasas.vs*self.mass*g0)/     \
                       (self.ESF*np.maximum(bs.traf.eps,bs.traf.tas)*cpred)) \
                       + self.D)) + ((bs.traf.selvs==0)*T)
 
@@ -535,7 +537,7 @@ class PerfBADA(TrafficArrays):
         self.post_flight = np.where(descent, True, self.post_flight)
 
         # when landing, we would like to stop the aircraft.
-        bs.traf.pilot.tas = np.where((bs.traf.alt <0.5)*(self.post_flight)*self.pf_flag, 0.0, bs.traf.pilot.tas)
+        bs.traf.aporasas.tas = np.where((bs.traf.alt <0.5)*(self.post_flight)*self.pf_flag, 0.0, bs.traf.aporasas.tas)
 
 
         # otherwise taxiing will be impossible afterwards
@@ -573,7 +575,7 @@ class PerfBADA(TrafficArrays):
         bs.traf.limalt,          \
         bs.traf.limalt_flag,      \
         bs.traf.limvs,           \
-        bs.traf.limvs_flag  =  calclimits(vtas2cas(bs.traf.pilot.tas, bs.traf.alt),   \
+        bs.traf.limvs_flag  =  calclimits(vtas2cas(bs.traf.aporasas.tas, bs.traf.alt),   \
                                         bs.traf.gs,            \
                                         self.vmto,             \
                                         self.vmin,             \
@@ -582,8 +584,8 @@ class PerfBADA(TrafficArrays):
                                         bs.traf.M,             \
                                         bs.traf.alt,           \
                                         self.hmaxact,          \
-                                        bs.traf.pilot.alt,     \
-                                        bs.traf.pilot.vs,      \
+                                        bs.traf.aporasas.alt,     \
+                                        bs.traf.aporasas.vs,      \
                                         self.maxthr,           \
                                         self.thrust,              \
                                         self.D,                \
@@ -618,3 +620,15 @@ class PerfBADA(TrafficArrays):
         # self.thrust, self.D, self.fuelflow,  cl, cd, self.vs/fpm, self.ESF,self.atrans, maxthr, \
         # self.vmto/kts, self.vmic/kts ,self.vmcr/kts, self.vmap/kts, self.vmld/kts, \
         # CD0f, kf, self.hmaxact
+
+    def show_performance(self, acid):
+        # PERF acid command
+        bs.scr.echo("Flight phase: %s" % self.phase[acid])
+        bs.scr.echo("Thrust: %d kN" % (self.thrust[acid] / 1000))
+        bs.scr.echo("Drag: %d kN" % (self.D[acid] / 1000))
+        bs.scr.echo("Fuel flow: %.2f kg/s" % self.fuelflow[acid])
+        bs.scr.echo("Speed envelope: Min: %d MMO: %d kts M %.2f" % (int(self.vmin[acid] / kts), int(self.vmo[acid] / kts),
+                                                      self.mmo[acid]))
+        bs.scr.echo("Ceiling: %d ft" % (int(self.hmax[acid] / ft)))
+        # self.drag.astype(int)
+        return True

@@ -1,14 +1,11 @@
 """ Pilot logic."""
 import numpy as np
 import bluesky as bs
-from bluesky.tools.aero import vtas2eas, vcas2tas, vcas2mach, vtas2cas
 from bluesky.tools.trafficarrays import TrafficArrays, RegisterElementParameters
-from bluesky import settings
 
-
-class Pilot(TrafficArrays):
+class APorASAS(TrafficArrays):
     def __init__(self):
-        super(Pilot, self).__init__()
+        super(APorASAS, self).__init__()
         with RegisterElementParameters(self):
             # Desired aircraft states
             self.alt = np.array([])  # desired altitude [m]
@@ -18,14 +15,14 @@ class Pilot(TrafficArrays):
             self.tas = np.array([])  # desired speed [m/s]
 
     def create(self, n=1):
-        super(Pilot, self).create(n)
+        super(APorASAS, self).create(n)
 
         self.alt[-n:] = bs.traf.alt[-n:]
         self.tas[-n:] = bs.traf.tas[-n:]
         self.hdg[-n:] = bs.traf.hdg[-n:]
         self.trk[-n:] = bs.traf.trk[-n:]
 
-    def APorASAS(self):
+    def update(self):
         #--------- Input to Autopilot settings to follow: destination or ASAS ----------
         # Convert the ASAS commanded speed from ground speed to TAS
         if bs.traf.wind.winddim > 0:
@@ -37,11 +34,13 @@ class Pilot(TrafficArrays):
         else:
             asastas = bs.traf.cr.tas # TAS [m/s]
 
-        # Determine desired states from ASAS or AP. Select asas if there is a conflict AND resolution is on.
-        self.trk = np.where(bs.traf.cr.active, bs.traf.cr.trk, bs.traf.ap.trk)
-        self.tas = np.where(bs.traf.cr.active, asastas, bs.traf.ap.tas)
-        self.alt = np.where(bs.traf.cr.active, bs.traf.cr.alt, bs.traf.ap.alt)
-        self.vs  = np.where(bs.traf.cr.active, bs.traf.cr.vs, bs.traf.ap.vs)
+        # Select asas if there is a conflict AND resolution is on
+        # Determine desired states per channel whether to use value from ASAS or AP.
+        # bs.traf.cr.active may be used as well, will set all of these channels
+        self.trk = np.where(bs.traf.cr.hdgactive, bs.traf.cr.trk, bs.traf.ap.trk)
+        self.tas = np.where(bs.traf.cr.tasactive, asastas, bs.traf.ap.tas)
+        self.alt = np.where(bs.traf.cr.altactive, bs.traf.cr.alt, bs.traf.ap.alt)
+        self.vs  = np.where(bs.traf.cr.vsactive, bs.traf.cr.vs, bs.traf.ap.vs)
 
         # ASAS can give positive and negative VS, but the sign of VS is determined using delalt in Traf.ComputeAirSpeed
         # Therefore, ensure that pilot.vs is always positive to prevent opposite signs of delalt and VS in Traf.ComputeAirSpeed
@@ -62,20 +61,3 @@ class Pilot(TrafficArrays):
         else:
             self.hdg = self.trk % 360.
 
-    def applylimits(self):
-        # check for the flight envelope
-        if settings.performance_model == 'openap':
-            self.tas, self.vs, self.alt = bs.traf.perf.limits(self.tas, self.vs, self.alt, bs.traf.ax)
-        else:
-            bs.traf.perf.limits() # Sets limspd_flag and limspd when it needs to be limited
-
-            # Update desired sates with values within the flight envelope
-            # When CAs is limited, it needs to be converted to TAS as only this TAS is used later on!
-
-            self.tas = np.where(bs.traf.limspd_flag, vcas2tas(bs.traf.limspd, bs.traf.alt), self.tas)
-
-            # Autopilot selected altitude [m]
-            self.alt = np.where(bs.traf.limalt_flag, bs.traf.limalt, self.alt)
-
-            # Autopilot selected vertical speed (V/S)
-            self.vs = np.where(bs.traf.limvs_flag, bs.traf.limvs, self.vs)

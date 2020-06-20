@@ -1,6 +1,7 @@
 import numpy as np
 import bluesky as bs
 from bluesky.tools import aero
+from bluesky.tools.aero import kts, ft, fpm
 from bluesky.tools.simtime import timed_function
 from bluesky.tools.trafficarrays import RegisterElementParameters
 from bluesky.traffic.performance.perfbase import PerfBase
@@ -64,6 +65,8 @@ class OpenAP(PerfBase):
             self.hmax = np.array([])
             self.axmax = np.array([])
             self.vminto = np.array([])
+            self.hcross = np.array([])
+            self.mmo = np.array([])
 
     def create(self, n=1):
         # cautious! considering multiple created aircraft with same type
@@ -80,6 +83,7 @@ class OpenAP(PerfBase):
                 # print(actype,"replaced by",self.coeff.synodict[actype])
                 actype = self.coeff.synodict[actype]
 
+        # initialize aircraft / engine performance parameters
         # check fixwing or rotor, default to fixwing
         if actype in self.coeff.actypes_rotor:
             self.lifttype[-n:] = coeff.LIFT_ROTOR
@@ -88,9 +92,7 @@ class OpenAP(PerfBase):
                 + self.coeff.acs_rotor[actype]["mtow"]
             )
             self.engnum[-n:] = int(self.coeff.acs_rotor[actype]["n_engines"])
-            self.engpower[-n:] = self.coeff.acs_rotor[actype]["engines"][0][
-                1
-            ]  # engine power (kW)
+            self.engpower[-n:] = self.coeff.acs_rotor[actype]["engines"][0][1]
 
         else:
             # convert to known aircraft type
@@ -126,31 +128,8 @@ class OpenAP(PerfBase):
                 all_ac_engs[0]
             ]["bpr"]
 
-        # init type specific coefficients
-        if actype in self.coeff.limits_fixwing.keys():
-            self.vminic[-n:] = self.coeff.limits_fixwing[actype]["vminic"]
-            self.vminer[-n:] = self.coeff.limits_fixwing[actype]["vminer"]
-            self.vminap[-n:] = self.coeff.limits_fixwing[actype]["vminap"]
-            self.vmaxic[-n:] = self.coeff.limits_fixwing[actype]["vmaxic"]
-            self.vmaxer[-n:] = self.coeff.limits_fixwing[actype]["vmaxer"]
-            self.vmaxap[-n:] = self.coeff.limits_fixwing[actype]["vmaxap"]
-
-            self.vsmin[-n:] = self.coeff.limits_fixwing[actype]["vsmin"]
-            self.vsmax[-n:] = self.coeff.limits_fixwing[actype]["vsmax"]
-            self.hmax[-n:] = self.coeff.limits_fixwing[actype]["hmax"]
-            self.axmax[-n:] = self.coeff.limits_fixwing[actype]["axmax"]
-            self.vminto[-n:] = self.coeff.limits_fixwing[actype]["vminto"]
-
-            self.cd0_clean[-n:] = self.coeff.dragpolar_fixwing[actype]["cd0_clean"]
-            self.k_clean[-n:] = self.coeff.dragpolar_fixwing[actype]["k_clean"]
-            self.cd0_to[-n:] = self.coeff.dragpolar_fixwing[actype]["cd0_to"]
-            self.k_to[-n:] = self.coeff.dragpolar_fixwing[actype]["k_to"]
-            self.cd0_ld[-n:] = self.coeff.dragpolar_fixwing[actype]["cd0_ld"]
-            self.k_ld[-n:] = self.coeff.dragpolar_fixwing[actype]["k_ld"]
-            self.delta_cd_gear[-n:] = self.coeff.dragpolar_fixwing[actype][
-                "delta_cd_gear"
-            ]
-        elif actype in self.coeff.limits_rotor.keys():  # rotorcraft
+        # init type specific coefficients for flight envelops
+        if actype in self.coeff.limits_rotor.keys():  # rotorcraft
             self.vmin[-n:] = self.coeff.limits_rotor[actype]["vmin"]
             self.vmax[-n:] = self.coeff.limits_rotor[actype]["vmax"]
             self.vsmin[-n:] = self.coeff.limits_rotor[actype]["vsmin"]
@@ -168,28 +147,33 @@ class OpenAP(PerfBase):
             self.cd0_ld[-n:] = np.nan
             self.k_ld[-n:] = np.nan
             self.delta_cd_gear[-n:] = np.nan
-        else: # Use default B747-400
-            print("Open AP (perfoap.py): Unknown actype, using default B744 instead.")
-            self.vminic[-n:] = self.coeff.limits_fixwing["B744"]["vminic"]
-            self.vminer[-n:] = self.coeff.limits_fixwing["B744"]["vminer"]
-            self.vminap[-n:] = self.coeff.limits_fixwing["B744"]["vminap"]
-            self.vmaxic[-n:] = self.coeff.limits_fixwing["B744"]["vmaxic"]
-            self.vmaxer[-n:] = self.coeff.limits_fixwing["B744"]["vmaxer"]
-            self.vmaxap[-n:] = self.coeff.limits_fixwing["B744"]["vmaxap"]
 
-            self.vsmin[-n:] = self.coeff.limits_fixwing["B744"]["vsmin"]
-            self.vsmax[-n:] = self.coeff.limits_fixwing["B744"]["vsmax"]
-            self.hmax[-n:] = self.coeff.limits_fixwing["B744"]["hmax"]
-            self.axmax[-n:] = self.coeff.limits_fixwing["B744"]["axmax"]
-            self.vminto[-n:] = self.coeff.limits_fixwing["B744"]["vminto"]
+        else:
+            if actype not in self.coeff.limits_fixwing.keys():
+                actype = "B744"
 
-            self.cd0_clean[-n:] = self.coeff.dragpolar_fixwing["B744"]["cd0_clean"]
-            self.k_clean[-n:] = self.coeff.dragpolar_fixwing["B744"]["k_clean"]
-            self.cd0_to[-n:] = self.coeff.dragpolar_fixwing["B744"]["cd0_to"]
-            self.k_to[-n:] = self.coeff.dragpolar_fixwing["B744"]["k_to"]
-            self.cd0_ld[-n:] = self.coeff.dragpolar_fixwing["B744"]["cd0_ld"]
-            self.k_ld[-n:] = self.coeff.dragpolar_fixwing["B744"]["k_ld"]
-            self.delta_cd_gear[-n:] = self.coeff.dragpolar_fixwing["B744"][
+            self.vminic[-n:] = self.coeff.limits_fixwing[actype]["vminic"]
+            self.vminer[-n:] = self.coeff.limits_fixwing[actype]["vminer"]
+            self.vminap[-n:] = self.coeff.limits_fixwing[actype]["vminap"]
+            self.vmaxic[-n:] = self.coeff.limits_fixwing[actype]["vmaxic"]
+            self.vmaxer[-n:] = self.coeff.limits_fixwing[actype]["vmaxer"]
+            self.vmaxap[-n:] = self.coeff.limits_fixwing[actype]["vmaxap"]
+
+            self.vsmin[-n:] = self.coeff.limits_fixwing[actype]["vsmin"]
+            self.vsmax[-n:] = self.coeff.limits_fixwing[actype]["vsmax"]
+            self.hmax[-n:] = self.coeff.limits_fixwing[actype]["hmax"]
+            self.axmax[-n:] = self.coeff.limits_fixwing[actype]["axmax"]
+            self.vminto[-n:] = self.coeff.limits_fixwing[actype]["vminto"]
+            self.hcross[-n:] = self.coeff.limits_fixwing[actype]["crosscl"]
+            self.mmo[-n:] = self.coeff.limits_fixwing[actype]["mmo"]
+
+            self.cd0_clean[-n:] = self.coeff.dragpolar_fixwing[actype]["cd0_clean"]
+            self.k_clean[-n:] = self.coeff.dragpolar_fixwing[actype]["k_clean"]
+            self.cd0_to[-n:] = self.coeff.dragpolar_fixwing[actype]["cd0_to"]
+            self.k_to[-n:] = self.coeff.dragpolar_fixwing[actype]["k_to"]
+            self.cd0_ld[-n:] = self.coeff.dragpolar_fixwing[actype]["cd0_ld"]
+            self.k_ld[-n:] = self.coeff.dragpolar_fixwing[actype]["k_ld"]
+            self.delta_cd_gear[-n:] = self.coeff.dragpolar_fixwing[actype][
                 "delta_cd_gear"
             ]
 
@@ -287,12 +271,22 @@ class OpenAP(PerfBase):
         # print(self.thrust.astype(int))
         # print(np.round(self.fuelflow, 2))
         # print(self.drag.astype(int))
+        # print(self.currentlimits())
         # print()
 
         return None
 
     def limits(self, intent_v_tas, intent_vs, intent_h, ax):
-        """ apply limits on indent speed, vertical speed, and altitude (called in pilot module)"""
+        """ apply limits on indent speed, vertical speed, and altitude (called in pilot module)
+
+        Args:
+            intent_v_tas (float or 1D-array): intent true airspeed
+            intent_vs (float or 1D-array): intent vertical speed
+            intent_h (float or 1D-array): intent altitude
+            ax (float or 1D-array): acceleration
+        Returns:
+            floats or 1D-arrays: Allowed TAS, Allowed vetical rate, Allowed altitude
+        """
         super(OpenAP, self).limits(intent_v_tas, intent_vs, intent_h)
 
         allow_h = np.where(intent_h > self.hmax, self.hmax, intent_h)
@@ -302,6 +296,11 @@ class OpenAP(PerfBase):
         allow_v_cas = np.where((intent_v_cas < self.vmin), self.vmin, intent_v_cas)
         allow_v_cas = np.where(intent_v_cas > self.vmax, self.vmax, allow_v_cas)
         allow_v_tas = aero.vcas2tas(allow_v_cas, allow_h)
+        allow_v_tas = np.where(
+            aero.vtas2mach(allow_v_tas, allow_h) > self.mmo,
+            aero.vmach2tas(self.mmo, allow_h),
+            allow_v_tas,
+        )  # maximum cannot exceed MMO
 
         vs_max_with_acc = (1 - ax / self.axmax) * self.vsmax
         allow_vs = np.where(
@@ -315,6 +314,27 @@ class OpenAP(PerfBase):
         )  # takeoff aircraft
 
         return allow_v_tas, allow_vs, allow_h
+
+    def currentlimits(self, id=None):
+        """Get current kinematic performance envelop.
+
+        Args:
+            id (int or 1D-array): Aircraft ID(s). Defualt to None (all aircraft).
+
+        Returns:
+            floats or 1D-arrays: Min TAS, Max TAS, Min VS, Max VS
+
+        """
+        vtasmin = aero.vcas2tas(self.vmin, bs.traf.alt)
+
+        vtasmax = np.minimum(
+            aero.vcas2tas(self.vmax, bs.traf.alt), aero.vmach2tas(self.mmo, bs.traf.alt)
+        )
+
+        if id is not None:
+            return vtasmin[id], vtasmax[id], self.vsmin[id], self.vsmax[id]
+        else:
+            return vtasmin, vtasmax, self.vsmin, self.vsmax
 
     def _construct_v_limits(self, actypes, phases):
         """Compute speed limist base on aircraft model and flight phases
@@ -336,6 +356,8 @@ class OpenAP(PerfBase):
 
         # fixwing
         # obtain flight envelope for speed, roc, and alt, based on flight phase
+
+        # --- minimum speed ---
         vminfw = np.where(phases[ifw] == ph.NA, 0, vminfw)
         vminfw = np.where(phases[ifw] == ph.IC, self.vminic[ifw], vminfw)
         vminfw = np.where(
@@ -344,6 +366,7 @@ class OpenAP(PerfBase):
         vminfw = np.where(phases[ifw] == ph.AP, self.vminap[ifw], vminfw)
         vminfw = np.where(phases[ifw] == ph.GD, 0, vminfw)
 
+        # --- maximum speed ---
         vmaxfw = np.where(phases[ifw] == ph.NA, self.vmaxer[ifw], vmaxfw)
         vmaxfw = np.where(phases[ifw] == ph.IC, self.vmaxic[ifw], vmaxfw)
         vmaxfw = np.where(
@@ -384,10 +407,13 @@ class OpenAP(PerfBase):
         bs.scr.echo("Thrust: %d kN" % (self.thrust[acid] / 1000))
         bs.scr.echo("Drag: %d kN" % (self.drag[acid] / 1000))
         bs.scr.echo("Fuel flow: %.2f kg/s" % self.fuelflow[acid])
-        bs.scr.echo("Speed envelope: [%d, %d] m/s" % (self.vmin[acid], self.vmax[acid]))
         bs.scr.echo(
-            "Vertical speed envelope: [%d, %d] m/s"
-            % (self.vsmin[acid], self.vsmax[acid])
+            "Speed envelope: [%d, %d] kts"
+            % (int(self.vmin[acid] / kts), int(self.vmax[acid] / kts))
         )
-        bs.scr.echo("Ceiling: %d km" % (self.hmax[acid] / 1000))
+        bs.scr.echo(
+            "Vertical speed envelope: [%d, %d] fpm"
+            % (int(self.vsmin[acid] / fpm), int(self.vsmax[acid] / fpm))
+        )
+        bs.scr.echo("Ceiling: %d ft" % (int(self.hmax[acid] / ft)))
         # self.drag.astype(int)
