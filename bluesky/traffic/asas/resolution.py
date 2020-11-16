@@ -37,6 +37,8 @@ class ConflictResolution(Entity, replaceable=True):
             self.tas = np.array([])  # speed provided by the ASAS (eas) [m/s]
             self.alt = np.array([])  # alt provided by the ASAS [m]
             self.vs = np.array([])  # vspeed provided by the ASAS [m/s]
+            self.prevconfs = set()
+            self.inivels = dict()
 
     # By default all channels are controlled by self.active,
     # but they can be overloaded with separate variables or functions in a
