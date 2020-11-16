@@ -4,6 +4,7 @@ from bluesky import stack
 from bluesky.tools import geo
 from bluesky.tools.aero import nm
 from bluesky.traffic.asas import ConflictDetection
+from bluesky.tools.aero import vcas2tas, vcas2mach, vtas2mach
 
 
 class StateBased(ConflictDetection):
@@ -11,7 +12,8 @@ class StateBased(ConflictDetection):
         ''' Conflict detection between ownship (traf) and intruder (traf/adsb).'''
         # Identity matrix of order ntraf: avoid ownship-ownship detected conflicts
         I = np.eye(ownship.ntraf)
-
+        #print('CAS vmin, vmax:', ownship.alt, ownship.perf.currentlimits(0)[0], ownship.perf.currentlimits(0)[1],
+        #      vcas2mach(ownship.perf.currentlimits(0)[0], ownship.alt), vcas2mach(ownship.perf.currentlimits(0)[1], ownship.alt))
         # Horizontal conflict ------------------------------------------------------
 
         # qdlst is for [i,j] qdr from i to j, from perception of ADSB and own coordinates

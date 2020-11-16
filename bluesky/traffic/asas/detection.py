@@ -6,7 +6,6 @@ from bluesky.tools.aero import ft, nm
 from bluesky.core import Entity
 from bluesky.stack import command
 
-
 bs.settings.set_variable_defaults(asas_pzr=5.0, asas_pzh=1000.0,
                                   asas_dtlookahead=300.0)
 
@@ -16,7 +15,7 @@ class ConflictDetection(Entity, replaceable=True):
     def __init__(self):
         super().__init__()
         # [m] Horizontal separation minimum for detection
-        self.rpz = bs.settings.asas_pzr * nm
+        self.rpz = bs.settings.asas_pzr * nm *bs.settings.asas_mar_cd
         # [m] Vertical separation minimum for detection
         self.hpz = bs.settings.asas_pzh * ft
         # [s] lookahead time
