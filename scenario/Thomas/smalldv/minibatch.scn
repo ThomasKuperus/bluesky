@@ -1,0 +1,167 @@
+00:00:01.00>SCEN angle1_mvp
+00:00:01.00>PCALL Thomas/smalldv/angle1.scn
+00:00:01.00>PCALL Thomas/smalldv/areaDefiniton.scn
+00:00:01.00>PCALL Thomas/smalldv/SettingsMVP.scn
+00:00:01.00>FF
+00:00:01.00>SCHEDULE 00:30:00.00 HOLD 
+
+00:00:01.00>SCEN angle2_mvp
+00:00:01.00>PCALL Thomas/smalldv/angle2.scn
+00:00:01.00>PCALL Thomas/smalldv/areaDefiniton.scn
+00:00:01.00>PCALL Thomas/smalldv/SettingsMVP.scn
+00:00:01.00>FF
+00:00:01.00>SCHEDULE 00:30:00.00 HOLD 
+
+00:00:01.00>SCEN line1_mvp
+00:00:01.00>PCALL Thomas/smalldv/line1.scn
+00:00:01.00>PCALL Thomas/smalldv/areaDefiniton.scn
+00:00:01.00>PCALL Thomas/smalldv/SettingsMVP.scn
+00:00:01.00>FF
+00:00:01.00>SCHEDULE 00:30:00.00 HOLD 
+
+00:00:01.00>SCEN line2_mvp
+00:00:01.00>PCALL Thomas/smalldv/line2.scn
+00:00:01.00>PCALL Thomas/smalldv/areaDefiniton.scn
+00:00:01.00>PCALL Thomas/smalldv/SettingsMVP.scn
+00:00:01.00>FF
+00:00:01.00>SCHEDULE 00:30:00.00 HOLD 
+
+00:00:01.00>SCEN angle1_MVPAreaWHW01
+00:00:01.00>PCALL Thomas/smalldv/angle1.scn
+00:00:01.00>PCALL Thomas/smalldv/areaDefiniton.scn
+00:00:01.00>PCALL Thomas/smalldv/SettingsMVPAreaWHW01.scn
+00:00:01.00>FF
+00:00:01.00>SCHEDULE 00:30:00.00 HOLD 
+
+00:00:01.00>SCEN angle2_MVPAreaWHW01
+00:00:01.00>PCALL Thomas/smalldv/angle2.scn
+00:00:01.00>PCALL Thomas/smalldv/areaDefiniton.scn
+00:00:01.00>PCALL Thomas/smalldv/SettingsMVPAreaWHW01.scn
+00:00:01.00>FF
+00:00:01.00>SCHEDULE 00:30:00.00 HOLD 
+
+00:00:01.00>SCEN line1_MVPAreaWHW01
+00:00:01.00>PCALL Thomas/smalldv/line1.scn
+00:00:01.00>PCALL Thomas/smalldv/areaDefiniton.scn
+00:00:01.00>PCALL Thomas/smalldv/SettingsMVPAreaWHW01.scn
+00:00:01.00>FF
+00:00:01.00>SCHEDULE 00:30:00.00 HOLD 
+
+00:00:01.00>SCEN line2_MVPAreaWHW01
+00:00:01.00>PCALL Thomas/smalldv/line2.scn
+00:00:01.00>PCALL Thomas/smalldv/areaDefiniton.scn
+00:00:01.00>PCALL Thomas/smalldv/SettingsMVPAreaWHW01.scn
+00:00:01.00>FF
+00:00:01.00>SCHEDULE 00:30:00.00 HOLD 
+
+00:00:01.00>SCEN angle1_MVPAreaWHW10
+00:00:01.00>PCALL Thomas/smalldv/angle1.scn
+00:00:01.00>PCALL Thomas/smalldv/areaDefiniton.scn
+00:00:01.00>PCALL Thomas/smalldv/SettingsMVPAreaWHW10.scn
+00:00:01.00>FF
+00:00:01.00>SCHEDULE 00:30:00.00 HOLD 
+
+00:00:01.00>SCEN angle2_MVPAreaWHW10
+00:00:01.00>PCALL Thomas/smalldv/angle2.scn
+00:00:01.00>PCALL Thomas/smalldv/areaDefiniton.scn
+00:00:01.00>PCALL Thomas/smalldv/SettingsMVPAreaWHW10.scn
+00:00:01.00>FF
+00:00:01.00>SCHEDULE 00:30:00.00 HOLD 
+
+00:00:01.00>SCEN line1_MVPAreaWHW10
+00:00:01.00>PCALL Thomas/smalldv/line1.scn
+00:00:01.00>PCALL Thomas/smalldv/areaDefiniton.scn
+00:00:01.00>PCALL Thomas/smalldv/SettingsMVPAreaWHW10.scn
+00:00:01.00>FF
+00:00:01.00>SCHEDULE 00:30:00.00 HOLD 
+
+00:00:01.00>SCEN line2_MVPAreaWHW10
+00:00:01.00>PCALL Thomas/smalldv/line2.scn
+00:00:01.00>PCALL Thomas/smalldv/areaDefiniton.scn
+00:00:01.00>PCALL Thomas/smalldv/SettingsMVPAreaWHW10.scn
+00:00:01.00>FF
+00:00:01.00>SCHEDULE 00:30:00.00 HOLD 
+
+00:00:01.00>SCEN angle1_MVPAvg
+00:00:01.00>PCALL Thomas/smalldv/angle1.scn
+00:00:01.00>PCALL Thomas/smalldv/areaDefiniton.scn
+00:00:01.00>PCALL Thomas/smalldv/SettingsMVPAvg.scn
+00:00:01.00>FF
+00:00:01.00>SCHEDULE 00:30:00.00 HOLD 
+
+00:00:01.00>SCEN angle2_MVPAvg
+00:00:01.00>PCALL Thomas/smalldv/angle2.scn
+00:00:01.00>PCALL Thomas/smalldv/areaDefiniton.scn
+00:00:01.00>PCALL Thomas/smalldv/SettingsMVPAvg.scn
+00:00:01.00>FF
+00:00:01.00>SCHEDULE 00:30:00.00 HOLD 
+
+00:00:01.00>SCEN line1_MVPAvg
+00:00:01.00>PCALL Thomas/smalldv/line1.scn
+00:00:01.00>PCALL Thomas/smalldv/areaDefiniton.scn
+00:00:01.00>PCALL Thomas/smalldv/SettingsMVPAvg.scn
+00:00:01.00>FF
+00:00:01.00>SCHEDULE 00:30:00.00 HOLD 
+
+00:00:01.00>SCEN line2_MVPAvg
+00:00:01.00>PCALL Thomas/smalldv/line2.scn
+00:00:01.00>PCALL Thomas/smalldv/areaDefiniton.scn
+00:00:01.00>PCALL Thomas/smalldv/SettingsMVPAvg.scn
+00:00:01.00>FF
+00:00:01.00>SCHEDULE 00:30:00.00 HOLD 
+
+00:00:01.00>SCEN angle1_MVPSF
+00:00:01.00>PCALL Thomas/smalldv/angle1.scn
+00:00:01.00>PCALL Thomas/smalldv/areaDefiniton.scn
+00:00:01.00>PCALL Thomas/smalldv/SettingsMVPSF.scn
+00:00:01.00>FF
+00:00:01.00>SCHEDULE 00:30:00.00 HOLD 
+
+00:00:01.00>SCEN angle2_MVPSF
+00:00:01.00>PCALL Thomas/smalldv/angle2.scn
+00:00:01.00>PCALL Thomas/smalldv/areaDefiniton.scn
+00:00:01.00>PCALL Thomas/smalldv/SettingsMVPSF.scn
+00:00:01.00>FF
+00:00:01.00>SCHEDULE 00:30:00.00 HOLD 
+
+00:00:01.00>SCEN line1_MVPSF
+00:00:01.00>PCALL Thomas/smalldv/line1.scn
+00:00:01.00>PCALL Thomas/smalldv/areaDefiniton.scn
+00:00:01.00>PCALL Thomas/smalldv/SettingsMVPSF.scn
+00:00:01.00>FF
+00:00:01.00>SCHEDULE 00:30:00.00 HOLD 
+
+00:00:01.00>SCEN line2_MVPSF
+00:00:01.00>PCALL Thomas/smalldv/line2.scn
+00:00:01.00>PCALL Thomas/smalldv/areaDefiniton.scn
+00:00:01.00>PCALL Thomas/smalldv/SettingsMVPSF.scn
+00:00:01.00>FF
+00:00:01.00>SCHEDULE 00:30:00.00 HOLD 
+
+00:00:01.00>SCEN angle1_OFF
+00:00:01.00>PCALL Thomas/smalldv/angle1.scn
+00:00:01.00>PCALL Thomas/smalldv/areaDefiniton.scn
+00:00:01.00>PCALL Thomas/smalldv/SettingsOFF.scn
+00:00:01.00>FF
+00:00:01.00>SCHEDULE 00:30:00.00 HOLD 
+
+00:00:01.00>SCEN angle2_OFF
+00:00:01.00>PCALL Thomas/smalldv/angle2.scn
+00:00:01.00>PCALL Thomas/smalldv/areaDefiniton.scn
+00:00:01.00>PCALL Thomas/smalldv/SettingsOFF.scn
+00:00:01.00>FF
+00:00:01.00>SCHEDULE 00:30:00.00 HOLD 
+
+00:00:01.00>SCEN line1_OFF
+00:00:01.00>PCALL Thomas/smalldv/line1.scn
+00:00:01.00>PCALL Thomas/smalldv/areaDefiniton.scn
+00:00:01.00>PCALL Thomas/smalldv/SettingsOFF.scn
+00:00:01.00>FF
+00:00:01.00>SCHEDULE 00:30:00.00 HOLD 
+
+00:00:01.00>SCEN line2_OFF
+00:00:01.00>PCALL Thomas/smalldv/line2.scn
+00:00:01.00>PCALL Thomas/smalldv/areaDefiniton.scn
+00:00:01.00>PCALL Thomas/smalldv/SettingsOFF.scn
+00:00:01.00>FF
+00:00:01.00>SCHEDULE 00:30:00.00 HOLD 

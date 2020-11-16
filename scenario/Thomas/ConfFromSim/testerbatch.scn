@@ -1,0 +1,6 @@
+00:00:00.00>SCEN NoCDtester
+00:00:00.00>PCALL Thomas/ConfFromSim/tester0.scn
+00:00:00.00>PCALL Thomas/ConfFromSim/areaDefiniton_20201022_22-39-16.scn
+00:00:00.00>PCALL Thomas/ConfFromSim/settingsNoCD.scn
+00:00:00.00>FF
+00:00:00.00>SCHEDULE 302:00:00.00 HOLD 

@@ -1,0 +1,71 @@
+# ########################################### #
+# Batch: Batch-Heading-Ranged-Uniform-UA20200508_16-18-04
+# Number of scn files: 9 
+# ########################################### #
+
+00:00:00.00>PLUGIN conf_data_log
+
+00:00:00.00>SCEN Heading-Ranged-Uniform-UA-Inst248-Rep1_20200508_16-18-04
+00:00:00.00>PCALL Batch/Heading-Ranged-Uniform-UA-Inst248-Rep1_20200508_16-18-04.scn
+00:00:00.00>PCALL Batch/areaDefiniton_20200508_16-18-04.scn
+00:00:00.00>PCALL Batch/settingsONv2.scn
+00:00:00.00>FF
+00:00:00.00>SCHEDULE 03:00:00.00 HOLD 
+
+00:00:00.00>SCEN Heading-Ranged-Uniform-UA-Inst248-Rep2_20200508_16-18-04
+00:00:00.00>PCALL Batch/Heading-Ranged-Uniform-UA-Inst248-Rep2_20200508_16-18-04.scn
+00:00:00.00>PCALL Batch/areaDefiniton_20200508_16-18-04.scn
+00:00:00.00>PCALL Batch/settingsONv2.scn
+00:00:00.00>FF
+00:00:00.00>SCHEDULE 03:00:00.00 HOLD 
+
+00:00:00.00>SCEN Heading-Ranged-Uniform-UA-Inst248-Rep3_20200508_16-18-04
+00:00:00.00>PCALL Batch/Heading-Ranged-Uniform-UA-Inst248-Rep3_20200508_16-18-04.scn
+00:00:00.00>PCALL Batch/areaDefiniton_20200508_16-18-04.scn
+00:00:00.00>PCALL Batch/settingsONv2.scn
+00:00:00.00>FF
+00:00:00.00>SCHEDULE 03:00:00.00 HOLD 
+
+00:00:00.00>SCEN Heading-Ranged-Uniform-UA-Inst332-Rep1_20200508_16-18-04
+00:00:00.00>PCALL Batch/Heading-Ranged-Uniform-UA-Inst332-Rep1_20200508_16-18-04.scn
+00:00:00.00>PCALL Batch/areaDefiniton_20200508_16-18-04.scn
+00:00:00.00>PCALL Batch/settingsONv2.scn
+00:00:00.00>FF
+00:00:00.00>SCHEDULE 03:00:00.00 HOLD 
+
+00:00:00.00>SCEN Heading-Ranged-Uniform-UA-Inst332-Rep2_20200508_16-18-04
+00:00:00.00>PCALL Batch/Heading-Ranged-Uniform-UA-Inst332-Rep2_20200508_16-18-04.scn
+00:00:00.00>PCALL Batch/areaDefiniton_20200508_16-18-04.scn
+00:00:00.00>PCALL Batch/settingsONv2.scn
+00:00:00.00>FF
+00:00:00.00>SCHEDULE 03:00:00.00 HOLD 
+
+00:00:00.00>SCEN Heading-Ranged-Uniform-UA-Inst332-Rep3_20200508_16-18-04
+00:00:00.00>PCALL Batch/Heading-Ranged-Uniform-UA-Inst332-Rep3_20200508_16-18-04.scn
+00:00:00.00>PCALL Batch/areaDefiniton_20200508_16-18-04.scn
+00:00:00.00>PCALL Batch/settingsONv2.scn
+00:00:00.00>FF
+00:00:00.00>SCHEDULE 03:00:00.00 HOLD 
+
+00:00:00.00>SCEN Heading-Ranged-Uniform-UA-Inst446-Rep1_20200508_16-18-04
+00:00:00.00>PCALL Batch/Heading-Ranged-Uniform-UA-Inst446-Rep1_20200508_16-18-04.scn
+00:00:00.00>PCALL Batch/areaDefiniton_20200508_16-18-04.scn
+00:00:00.00>PCALL Batch/settingsONv2.scn
+00:00:00.00>FF
+00:00:00.00>SCHEDULE 03:00:00.00 HOLD 
+
+00:00:00.00>SCEN Heading-Ranged-Uniform-UA-Inst446-Rep2_20200508_16-18-04
+00:00:00.00>PCALL Batch/Heading-Ranged-Uniform-UA-Inst446-Rep2_20200508_16-18-04.scn
+00:00:00.00>PCALL Batch/areaDefiniton_20200508_16-18-04.scn
+00:00:00.00>PCALL Batch/settingsONv2.scn
+00:00:00.00>FF
+00:00:00.00>SCHEDULE 03:00:00.00 HOLD 
+
+00:00:00.00>SCEN Heading-Ranged-Uniform-UA-Inst446-Rep3_20200508_16-18-04
+00:00:00.00>PCALL Batch/Heading-Ranged-Uniform-UA-Inst446-Rep3_20200508_16-18-04.scn
+00:00:00.00>PCALL Batch/areaDefiniton_20200508_16-18-04.scn
+00:00:00.00>PCALL Batch/settingsONv2.scn
+00:00:00.00>FF
+00:00:00.00>SCHEDULE 03:00:00.00 HOLD 
+
+

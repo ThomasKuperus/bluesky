@@ -1,0 +1,10 @@
+# ############################################################## #
+# Area Definitions:
+#   1. 'SIMAREA'     -> name of aircraft deletion area
+# Note: All areas have a 'top' and 'bottom' altitude
+#       and slight offsets have been added to prevent probelms
+#       due to rounding inaccuracies in BlueSky
+# ############################################################## #
+
+00:00:00.00>BOX,SIMAREA,-5.712305577558114,-5.712305577558114,5.712305577558114,5.712305577558114,26600.0,29400.0
+00:00:00.00>AREA,SIMAREA 

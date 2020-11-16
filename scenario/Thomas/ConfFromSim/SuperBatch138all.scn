@@ -1,0 +1,147 @@
+00:00:00.00>SCEN MVPAvg_Heading-Ranged-Uniform-UA-Inst138-Rep1Conflicts1200s
+00:00:00.00>PCALL Thomas/ConfFromSim/MVP_Heading-Ranged-Uniform-UA-Inst138-Rep1Conflicts1200s.scn
+00:00:00.00>PCALL Thomas/ConfFromSim/areaDefiniton_20201022_22-39-16.scn
+00:00:00.00>PCALL Thomas/ConfFromSim/settingsMVPAvg.scn
+00:00:00.00>FF
+00:00:00.00>SCHEDULE 604:00:00.00 HOLD 
+
+00:00:00.00>SCEN MVPAvg_Heading-Ranged-Uniform-UA-Inst138-Rep2Conflicts1200s
+00:00:00.00>PCALL Thomas/ConfFromSim/MVP_Heading-Ranged-Uniform-UA-Inst138-Rep2Conflicts1200s.scn
+00:00:00.00>PCALL Thomas/ConfFromSim/areaDefiniton_20201022_22-39-16.scn
+00:00:00.00>PCALL Thomas/ConfFromSim/settingsMVPAvg.scn
+00:00:00.00>FF
+00:00:00.00>SCHEDULE 400:00:00.00 HOLD 
+
+00:00:00.00>SCEN MVPAvg_Heading-Ranged-Uniform-UA-Inst138-Rep3Conflicts1200s
+00:00:00.00>PCALL Thomas/ConfFromSim/MVP_Heading-Ranged-Uniform-UA-Inst138-Rep3Conflicts1200s.scn
+00:00:00.00>PCALL Thomas/ConfFromSim/areaDefiniton_20201022_22-39-16.scn
+00:00:00.00>PCALL Thomas/ConfFromSim/settingsMVPAvg.scn
+00:00:00.00>FF
+00:00:00.00>SCHEDULE 290:00:00.00 HOLD 
+
+00:00:00.00>SCEN MVPDistBigPrio_Heading-Ranged-Uniform-UA-Inst138-Rep1Conflicts1200s
+00:00:00.00>PCALL Thomas/ConfFromSim/MVP_Heading-Ranged-Uniform-UA-Inst138-Rep1Conflicts1200s.scn
+00:00:00.00>PCALL Thomas/ConfFromSim/areaDefiniton_20201022_22-39-16.scn
+00:00:00.00>PCALL Thomas/ConfFromSim/settingsMVPDistBigPrio.scn
+00:00:00.00>FF
+00:00:00.00>SCHEDULE 604:00:00.00 HOLD 
+
+00:00:00.00>SCEN MVPDistBigPrio_Heading-Ranged-Uniform-UA-Inst138-Rep2Conflicts1200s
+00:00:00.00>PCALL Thomas/ConfFromSim/MVP_Heading-Ranged-Uniform-UA-Inst138-Rep2Conflicts1200s.scn
+00:00:00.00>PCALL Thomas/ConfFromSim/areaDefiniton_20201022_22-39-16.scn
+00:00:00.00>PCALL Thomas/ConfFromSim/settingsMVPDistBigPrio.scn
+00:00:00.00>FF
+00:00:00.00>SCHEDULE 400:00:00.00 HOLD 
+
+00:00:00.00>SCEN MVPDistBigPrio_Heading-Ranged-Uniform-UA-Inst138-Rep3Conflicts1200s
+00:00:00.00>PCALL Thomas/ConfFromSim/MVP_Heading-Ranged-Uniform-UA-Inst138-Rep3Conflicts1200s.scn
+00:00:00.00>PCALL Thomas/ConfFromSim/areaDefiniton_20201022_22-39-16.scn
+00:00:00.00>PCALL Thomas/ConfFromSim/settingsMVPDistBigPrio.scn
+00:00:00.00>FF
+00:00:00.00>SCHEDULE 290:00:00.00 HOLD 
+
+00:00:00.00>SCEN MVPDist_Heading-Ranged-Uniform-UA-Inst138-Rep1Conflicts1200s
+00:00:00.00>PCALL Thomas/ConfFromSim/MVP_Heading-Ranged-Uniform-UA-Inst138-Rep1Conflicts1200s.scn
+00:00:00.00>PCALL Thomas/ConfFromSim/areaDefiniton_20201022_22-39-16.scn
+00:00:00.00>PCALL Thomas/ConfFromSim/settingsMVPDist.scn
+00:00:00.00>FF
+00:00:00.00>SCHEDULE 604:00:00.00 HOLD 
+
+00:00:00.00>SCEN MVPDist_Heading-Ranged-Uniform-UA-Inst138-Rep2Conflicts1200s
+00:00:00.00>PCALL Thomas/ConfFromSim/MVP_Heading-Ranged-Uniform-UA-Inst138-Rep2Conflicts1200s.scn
+00:00:00.00>PCALL Thomas/ConfFromSim/areaDefiniton_20201022_22-39-16.scn
+00:00:00.00>PCALL Thomas/ConfFromSim/settingsMVPDist.scn
+00:00:00.00>FF
+00:00:00.00>SCHEDULE 400:00:00.00 HOLD 
+
+00:00:00.00>SCEN MVPDist_Heading-Ranged-Uniform-UA-Inst138-Rep3Conflicts1200s
+00:00:00.00>PCALL Thomas/ConfFromSim/MVP_Heading-Ranged-Uniform-UA-Inst138-Rep3Conflicts1200s.scn
+00:00:00.00>PCALL Thomas/ConfFromSim/areaDefiniton_20201022_22-39-16.scn
+00:00:00.00>PCALL Thomas/ConfFromSim/settingsMVPDist.scn
+00:00:00.00>FF
+00:00:00.00>SCHEDULE 290:00:00.00 HOLD 
+
+00:00:00.00>SCEN MVPTime_Heading-Ranged-Uniform-UA-Inst138-Rep1Conflicts1200s
+00:00:00.00>PCALL Thomas/ConfFromSim/MVP_Heading-Ranged-Uniform-UA-Inst138-Rep1Conflicts1200s.scn
+00:00:00.00>PCALL Thomas/ConfFromSim/areaDefiniton_20201022_22-39-16.scn
+00:00:00.00>PCALL Thomas/ConfFromSim/settingsMVPTime.scn
+00:00:00.00>FF
+00:00:00.00>SCHEDULE 604:00:00.00 HOLD 
+
+00:00:00.00>SCEN MVPTime_Heading-Ranged-Uniform-UA-Inst138-Rep2Conflicts1200s
+00:00:00.00>PCALL Thomas/ConfFromSim/MVP_Heading-Ranged-Uniform-UA-Inst138-Rep2Conflicts1200s.scn
+00:00:00.00>PCALL Thomas/ConfFromSim/areaDefiniton_20201022_22-39-16.scn
+00:00:00.00>PCALL Thomas/ConfFromSim/settingsMVPTime.scn
+00:00:00.00>FF
+00:00:00.00>SCHEDULE 400:00:00.00 HOLD 
+
+00:00:00.00>SCEN MVPTime_Heading-Ranged-Uniform-UA-Inst138-Rep3Conflicts1200s
+00:00:00.00>PCALL Thomas/ConfFromSim/MVP_Heading-Ranged-Uniform-UA-Inst138-Rep3Conflicts1200s.scn
+00:00:00.00>PCALL Thomas/ConfFromSim/areaDefiniton_20201022_22-39-16.scn
+00:00:00.00>PCALL Thomas/ConfFromSim/settingsMVPTime.scn
+00:00:00.00>FF
+00:00:00.00>SCHEDULE 290:00:00.00 HOLD 
+
+00:00:00.00>SCEN MVPTimeBigPrio_Heading-Ranged-Uniform-UA-Inst138-Rep1Conflicts1200s
+00:00:00.00>PCALL Thomas/ConfFromSim/MVP_Heading-Ranged-Uniform-UA-Inst138-Rep1Conflicts1200s.scn
+00:00:00.00>PCALL Thomas/ConfFromSim/areaDefiniton_20201022_22-39-16.scn
+00:00:00.00>PCALL Thomas/ConfFromSim/settingsMVPTimeBigPrio.scn
+00:00:00.00>FF
+00:00:00.00>SCHEDULE 604:00:00.00 HOLD 
+
+00:00:00.00>SCEN MVPTimeBigPrio_Heading-Ranged-Uniform-UA-Inst138-Rep2Conflicts1200s
+00:00:00.00>PCALL Thomas/ConfFromSim/MVP_Heading-Ranged-Uniform-UA-Inst138-Rep2Conflicts1200s.scn
+00:00:00.00>PCALL Thomas/ConfFromSim/areaDefiniton_20201022_22-39-16.scn
+00:00:00.00>PCALL Thomas/ConfFromSim/settingsMVPTimeBigPrio.scn
+00:00:00.00>FF
+00:00:00.00>SCHEDULE 400:00:00.00 HOLD 
+
+00:00:00.00>SCEN MVPTimeBigPrio_Heading-Ranged-Uniform-UA-Inst138-Rep3Conflicts1200s
+00:00:00.00>PCALL Thomas/ConfFromSim/MVP_Heading-Ranged-Uniform-UA-Inst138-Rep3Conflicts1200s.scn
+00:00:00.00>PCALL Thomas/ConfFromSim/areaDefiniton_20201022_22-39-16.scn
+00:00:00.00>PCALL Thomas/ConfFromSim/settingsMVPTimeBigPrio.scn
+00:00:00.00>FF
+00:00:00.00>SCHEDULE 290:00:00.00 HOLD 
+
+00:00:00.00>SCEN MVPSFNA_Heading-Ranged-Uniform-UA-Inst138-Rep1Conflicts1200s
+00:00:00.00>PCALL Thomas/ConfFromSim/MVP_Heading-Ranged-Uniform-UA-Inst138-Rep1Conflicts1200s.scn
+00:00:00.00>PCALL Thomas/ConfFromSim/areaDefiniton_20201022_22-39-16.scn
+00:00:00.00>PCALL Thomas/ConfFromSim/settingsMVPSFNA.scn
+00:00:00.00>FF
+00:00:00.00>SCHEDULE 604:00:00.00 HOLD 
+
+00:00:00.00>SCEN MVPSFNA_Heading-Ranged-Uniform-UA-Inst138-Rep2Conflicts1200s
+00:00:00.00>PCALL Thomas/ConfFromSim/MVP_Heading-Ranged-Uniform-UA-Inst138-Rep2Conflicts1200s.scn
+00:00:00.00>PCALL Thomas/ConfFromSim/areaDefiniton_20201022_22-39-16.scn
+00:00:00.00>PCALL Thomas/ConfFromSim/settingsMVPSFNA.scn
+00:00:00.00>FF
+00:00:00.00>SCHEDULE 400:00:00.00 HOLD 
+
+00:00:00.00>SCEN MVPSFNA_Heading-Ranged-Uniform-UA-Inst138-Rep3Conflicts1200s
+00:00:00.00>PCALL Thomas/ConfFromSim/MVP_Heading-Ranged-Uniform-UA-Inst138-Rep3Conflicts1200s.scn
+00:00:00.00>PCALL Thomas/ConfFromSim/areaDefiniton_20201022_22-39-16.scn
+00:00:00.00>PCALL Thomas/ConfFromSim/settingsMVPSFNA.scn
+00:00:00.00>FF
+00:00:00.00>SCHEDULE 290:00:00.00 HOLD 
+
+00:00:00.00>SCEN MVPBFNA_Heading-Ranged-Uniform-UA-Inst138-Rep1Conflicts1200s
+00:00:00.00>PCALL Thomas/ConfFromSim/MVP_Heading-Ranged-Uniform-UA-Inst138-Rep1Conflicts1200s.scn
+00:00:00.00>PCALL Thomas/ConfFromSim/areaDefiniton_20201022_22-39-16.scn
+00:00:00.00>PCALL Thomas/ConfFromSim/settingsMVPBFNA.scn
+00:00:00.00>FF
+00:00:00.00>SCHEDULE 604:00:00.00 HOLD 
+
+00:00:00.00>SCEN MVPBFNA_Heading-Ranged-Uniform-UA-Inst138-Rep2Conflicts1200s
+00:00:00.00>PCALL Thomas/ConfFromSim/MVP_Heading-Ranged-Uniform-UA-Inst138-Rep2Conflicts1200s.scn
+00:00:00.00>PCALL Thomas/ConfFromSim/areaDefiniton_20201022_22-39-16.scn
+00:00:00.00>PCALL Thomas/ConfFromSim/settingsMVPBFNA.scn
+00:00:00.00>FF
+00:00:00.00>SCHEDULE 400:00:00.00 HOLD 
+
+00:00:00.00>SCEN MVPBFNA_Heading-Ranged-Uniform-UA-Inst138-Rep3Conflicts1200s
+00:00:00.00>PCALL Thomas/ConfFromSim/MVP_Heading-Ranged-Uniform-UA-Inst138-Rep3Conflicts1200s.scn
+00:00:00.00>PCALL Thomas/ConfFromSim/areaDefiniton_20201022_22-39-16.scn
+00:00:00.00>PCALL Thomas/ConfFromSim/settingsMVPBFNA.scn
+00:00:00.00>FF
+00:00:00.00>SCHEDULE 290:00:00.00 HOLD 
+

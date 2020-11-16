@@ -1,0 +1,106 @@
+# ########################################### #
+# ########################################### #
+# SUPER BATCH FOR Ranged-Uniform!!!!
+# Number of scn files: 30!
+# ########################################### #
+# ########################################### #
+
+
+# ########################################### #
+# Batch: Batch-Heading-Ranged-Uniform-UA20200424_13-51-42
+# Number of scn files: 15 
+# ########################################### #
+
+00:00:00.00>PLUGIN conf_data_log
+
+00:00:00.00>SCEN Heading-Ranged-Uniform-UA-Inst75-Rep1_20200424_13-51-40
+00:00:00.00>PCALL Heading-Ranged-Uniform-UA-Inst75-Rep1_20200424_13-51-40.scn
+00:00:00.00>PCALL areaDefiniton.scn
+00:00:00.00>PCALL settings-datalog.scn
+03:00:00.00>HOLD 
+
+00:00:00.00>SCEN Heading-Ranged-Uniform-UA-Inst75-Rep2_20200424_13-51-40
+00:00:00.00>PCALL Heading-Ranged-Uniform-UA-Inst75-Rep2_20200424_13-51-40.scn
+00:00:00.00>PCALL areaDefiniton.scn
+00:00:00.00>PCALL settings-datalog.scn
+03:00:00.00>HOLD 
+
+00:00:00.00>SCEN Heading-Ranged-Uniform-UA-Inst75-Rep3_20200424_13-51-40
+00:00:00.00>PCALL Heading-Ranged-Uniform-UA-Inst75-Rep3_20200424_13-51-40.scn
+00:00:00.00>PCALL areaDefiniton.scn
+00:00:00.00>PCALL settings-datalog.scn
+03:00:00.00>HOLD 
+
+00:00:00.00>SCEN Heading-Ranged-Uniform-UA-Inst97-Rep1_20200424_13-51-40
+00:00:00.00>PCALL Heading-Ranged-Uniform-UA-Inst97-Rep1_20200424_13-51-40.scn
+00:00:00.00>PCALL areaDefiniton.scn
+00:00:00.00>PCALL settings-datalog.scn
+03:00:00.00>HOLD 
+
+00:00:00.00>SCEN Heading-Ranged-Uniform-UA-Inst97-Rep2_20200424_13-51-40
+00:00:00.00>PCALL Heading-Ranged-Uniform-UA-Inst97-Rep2_20200424_13-51-40.scn
+00:00:00.00>PCALL areaDefiniton.scn
+00:00:00.00>PCALL settings-datalog.scn
+03:00:00.00>HOLD 
+
+00:00:00.00>SCEN Heading-Ranged-Uniform-UA-Inst97-Rep3_20200424_13-51-40
+00:00:00.00>PCALL Heading-Ranged-Uniform-UA-Inst97-Rep3_20200424_13-51-40.scn
+00:00:00.00>PCALL areaDefiniton.scn
+00:00:00.00>PCALL settings-datalog.scn
+03:00:00.00>HOLD 
+
+00:00:00.00>SCEN Heading-Ranged-Uniform-UA-Inst124-Rep1_20200424_13-51-40
+00:00:00.00>PCALL Heading-Ranged-Uniform-UA-Inst124-Rep1_20200424_13-51-40.scn
+00:00:00.00>PCALL areaDefiniton.scn
+00:00:00.00>PCALL settings-datalog.scn
+03:00:00.00>HOLD 
+
+00:00:00.00>SCEN Heading-Ranged-Uniform-UA-Inst124-Rep2_20200424_13-51-40
+00:00:00.00>PCALL Heading-Ranged-Uniform-UA-Inst124-Rep2_20200424_13-51-40.scn
+00:00:00.00>PCALL areaDefiniton.scn
+00:00:00.00>PCALL settings-datalog.scn
+03:00:00.00>HOLD 
+
+00:00:00.00>SCEN Heading-Ranged-Uniform-UA-Inst124-Rep3_20200424_13-51-40
+00:00:00.00>PCALL Heading-Ranged-Uniform-UA-Inst124-Rep3_20200424_13-51-40.scn
+00:00:00.00>PCALL areaDefiniton.scn
+00:00:00.00>PCALL settings-datalog.scn
+03:00:00.00>HOLD 
+
+00:00:00.00>SCEN Heading-Ranged-Uniform-UA-Inst158-Rep1_20200424_13-51-40
+00:00:00.00>PCALL Heading-Ranged-Uniform-UA-Inst158-Rep1_20200424_13-51-40.scn
+00:00:00.00>PCALL areaDefiniton.scn
+00:00:00.00>PCALL settings-datalog.scn
+03:00:00.00>HOLD 
+
+00:00:00.00>SCEN Heading-Ranged-Uniform-UA-Inst158-Rep2_20200424_13-51-40
+00:00:00.00>PCALL Heading-Ranged-Uniform-UA-Inst158-Rep2_20200424_13-51-40.scn
+00:00:00.00>PCALL areaDefiniton.scn
+00:00:00.00>PCALL settings-datalog.scn
+03:00:00.00>HOLD 
+
+00:00:00.00>SCEN Heading-Ranged-Uniform-UA-Inst158-Rep3_20200424_13-51-40
+00:00:00.00>PCALL Heading-Ranged-Uniform-UA-Inst158-Rep3_20200424_13-51-40.scn
+00:00:00.00>PCALL areaDefiniton.scn
+00:00:00.00>PCALL settings-datalog.scn
+03:00:00.00>HOLD 
+
+00:00:00.00>SCEN Heading-Ranged-Uniform-UA-Inst202-Rep1_20200424_13-51-40
+00:00:00.00>PCALL Heading-Ranged-Uniform-UA-Inst202-Rep1_20200424_13-51-40.scn
+00:00:00.00>PCALL areaDefiniton.scn
+00:00:00.00>PCALL settings-datalog.scn
+03:00:00.00>HOLD 
+
+00:00:00.00>SCEN Heading-Ranged-Uniform-UA-Inst202-Rep2_20200424_13-51-40
+00:00:00.00>PCALL Heading-Ranged-Uniform-UA-Inst202-Rep2_20200424_13-51-40.scn
+00:00:00.00>PCALL areaDefiniton.scn
+00:00:00.00>PCALL settings-datalog.scn
+03:00:00.00>HOLD 
+
+00:00:00.00>SCEN Heading-Ranged-Uniform-UA-Inst202-Rep3_20200424_13-51-40
+00:00:00.00>PCALL Heading-Ranged-Uniform-UA-Inst202-Rep3_20200424_13-51-40.scn
+00:00:00.00>PCALL areaDefiniton.scn
+00:00:00.00>PCALL settings-datalog.scn
+03:00:00.00>HOLD 
+
+00:00:00.00>reset

@@ -1,0 +1,36 @@
+# ########################################### #
+# Batch: Batch-Heading-Normal-UA
+# Number of scn files: 5 
+# ########################################### #
+
+
+00:00:00.00>SCEN Heading-Normal-UA-Inst80-Rep1
+00:00:00.00>PCALL Heading-Normal-UA-Inst80-Rep1.scn
+00:00:00.00>PCALL areaDefiniton.scn
+00:00:00.00>PCALL settingsOFF.scn
+03:00:00.00>HOLD 
+
+00:00:00.00>SCEN Heading-Normal-UA-Inst302-Rep1
+00:00:00.00>PCALL Heading-Normal-UA-Inst302-Rep1.scn
+00:00:00.00>PCALL areaDefiniton.scn
+00:00:00.00>PCALL settingsOFF.scn
+03:00:00.00>HOLD 
+
+00:00:00.00>SCEN Heading-Normal-UA-Inst589-Rep1
+00:00:00.00>PCALL Heading-Normal-UA-Inst589-Rep1.scn
+00:00:00.00>PCALL areaDefiniton.scn
+00:00:00.00>PCALL settingsOFF.scn
+03:00:00.00>HOLD 
+
+00:00:00.00>SCEN Heading-Normal-UA-Inst1146-Rep1
+00:00:00.00>PCALL Heading-Normal-UA-Inst1146-Rep1.scn
+00:00:00.00>PCALL areaDefiniton.scn
+00:00:00.00>PCALL settingsOFF.scn
+03:00:00.00>HOLD 
+
+00:00:00.00>SCEN Heading-Normal-UA-Inst1600-Rep1
+00:00:00.00>PCALL Heading-Normal-UA-Inst1600-Rep1.scn
+00:00:00.00>PCALL areaDefiniton.scn
+00:00:00.00>PCALL settingsOFF.scn
+03:00:00.00>HOLD 
+

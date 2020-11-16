@@ -1,0 +1,44 @@
+# ########################################### #
+# ########################################### #
+# SUPER BATCH FOR Ranged-Uniform!!!!
+# Number of scn files: 10!
+# ########################################### #
+# ########################################### #
+
+
+# ########################################### #
+# Batch: Batch-Heading-Ranged-Uniform-UA
+# Number of scn files: 5 
+# ########################################### #
+
+
+00:00:00.00>SCEN Heading-Ranged-Uniform-UA-Inst793-Rep1_20200422_20-41-11
+00:00:00.00>PCALL Heading-Ranged-Uniform-UA-Inst793-Rep1_20200422_20-41-11.scn
+00:00:00.00>PCALL areaDefiniton.scn
+00:00:00.00>PCALL settingsOFF.scn
+04:00:00.00>HOLD 
+
+00:00:00.00>SCEN Heading-Ranged-Uniform-UA-Inst912-Rep1_20200422_20-41-12
+00:00:00.00>PCALL Heading-Ranged-Uniform-UA-Inst912-Rep1_20200422_20-41-12.scn
+00:00:00.00>PCALL areaDefiniton.scn
+00:00:00.00>PCALL settingsOFF.scn
+04:00:00.00>HOLD 
+
+00:00:00.00>SCEN Heading-Ranged-Uniform-UA-Inst1050-Rep1_20200422_20-41-12
+00:00:00.00>PCALL Heading-Ranged-Uniform-UA-Inst1050-Rep1_20200422_20-41-12.scn
+00:00:00.00>PCALL areaDefiniton.scn
+00:00:00.00>PCALL settingsOFF.scn
+04:00:00.00>HOLD 
+
+00:00:00.00>SCEN Heading-Ranged-Uniform-UA-Inst1207-Rep1_20200422_20-41-12
+00:00:00.00>PCALL Heading-Ranged-Uniform-UA-Inst1207-Rep1_20200422_20-41-12.scn
+00:00:00.00>PCALL areaDefiniton.scn
+00:00:00.00>PCALL settingsOFF.scn
+04:00:00.00>HOLD 
+
+00:00:00.00>SCEN Heading-Ranged-Uniform-UA-Inst1389-Rep1_20200422_20-41-12
+00:00:00.00>PCALL Heading-Ranged-Uniform-UA-Inst1389-Rep1_20200422_20-41-12.scn
+00:00:00.00>PCALL areaDefiniton.scn
+00:00:00.00>PCALL settingsOFF.scn
+04:00:00.00>HOLD 
+

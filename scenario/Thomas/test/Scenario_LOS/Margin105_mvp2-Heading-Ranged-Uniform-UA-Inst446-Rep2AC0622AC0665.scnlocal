@@ -1,0 +1,450 @@
+00:00:00.00>ASAS ON
+00:00:00.00>PLUGIN MVP_HDG_TIME
+00:00:00.00>PLUGIN MVP2
+00:00:00.00>RESO MVP2
+00:00:00.00>TRAILS ON
+00:00:00.00>RMETHV OFF
+00:00:00.00>RMETHH BOTH
+00:00:00.00>SYMBOL
+00:00:00.00>PAN 0.0
+00:00:00.00>CRE 1118928    AC0622
+Name: id, dtype: object,B744,1118928    0.177368
+Name: lat, dtype: float64,1118928    0.557867
+Name: lon, dtype: float64,1118928    228.550301
+Name: hdg, dtype: float64,1118928    10668.0
+Name: alt, dtype: float64,1118928    118.730445
+Name: cas, dtype: float64
+00:00:00.00>CRE 1118462    AC0129
+Name: id, dtype: object,B744,1118462    0.765145
+Name: lat, dtype: float64,1118462   -3.353076
+Name: lon, dtype: float64,1118462    267.271539
+Name: hdg, dtype: float64,1118462    10668.0
+Name: alt, dtype: float64,1118462    127.034267
+Name: cas, dtype: float64
+00:00:00.00>CRE 1118530    AC0216
+Name: id, dtype: object,B744,1118530    0.613543
+Name: lat, dtype: float64,1118530    3.426358
+Name: lon, dtype: float64,1118530    159.433471
+Name: hdg, dtype: float64,1118530    10668.0
+Name: alt, dtype: float64,1118530    166.228199
+Name: cas, dtype: float64
+00:00:00.00>CRE 1118559    AC0250
+Name: id, dtype: object,B744,1118559    1.392596
+Name: lat, dtype: float64,1118559    2.715563
+Name: lon, dtype: float64,1118559    64.148555
+Name: hdg, dtype: float64,1118559    10668.0
+Name: alt, dtype: float64,1118559    114.959062
+Name: cas, dtype: float64
+00:00:00.00>CRE 1118560    AC0251
+Name: id, dtype: object,B744,1118560    1.935921
+Name: lat, dtype: float64,1118560    2.712528
+Name: lon, dtype: float64,1118560    62.707648
+Name: hdg, dtype: float64,1118560    10668.0
+Name: alt, dtype: float64,1118560    134.863547
+Name: cas, dtype: float64
+00:00:00.00>CRE 1118593    AC0284
+Name: id, dtype: object,B744,1118593    1.705097
+Name: lat, dtype: float64,1118593    2.381323
+Name: lon, dtype: float64,1118593    55.699008
+Name: hdg, dtype: float64,1118593    10668.0
+Name: alt, dtype: float64,1118593    129.558147
+Name: cas, dtype: float64
+00:00:00.00>CRE 1118616    AC0309
+Name: id, dtype: object,B744,1118616    0.526377
+Name: lat, dtype: float64,1118616    1.801429
+Name: lon, dtype: float64,1118616    94.595174
+Name: hdg, dtype: float64,1118616    10668.0
+Name: alt, dtype: float64,1118616    151.829016
+Name: cas, dtype: float64
+00:00:00.00>CRE 1118638    AC0332
+Name: id, dtype: object,B744,1118638    1.397855
+Name: lat, dtype: float64,1118638    2.209088
+Name: lon, dtype: float64,1118638    47.635666
+Name: hdg, dtype: float64,1118638    10668.0
+Name: alt, dtype: float64,1118638    152.822581
+Name: cas, dtype: float64
+00:00:00.00>CRE 1118649    AC0343
+Name: id, dtype: object,B744,1118649    1.690575
+Name: lat, dtype: float64,1118649    2.042642
+Name: lon, dtype: float64,1118649    10.443986
+Name: hdg, dtype: float64,1118649    10668.0
+Name: alt, dtype: float64,1118649    111.608277
+Name: cas, dtype: float64
+00:00:00.00>CRE 1118666    AC0360
+Name: id, dtype: object,B744,1118666    0.37824
+Name: lat, dtype: float64,1118666    1.089063
+Name: lon, dtype: float64,1118666    107.44593
+Name: hdg, dtype: float64,1118666    10668.0
+Name: alt, dtype: float64,1118666    133.486527
+Name: cas, dtype: float64
+00:00:00.00>CRE 1118710    AC0404
+Name: id, dtype: object,B744,1118710   -2.616064
+Name: lat, dtype: float64,1118710   -1.247368
+Name: lon, dtype: float64,1118710    173.871065
+Name: hdg, dtype: float64,1118710    10668.0
+Name: alt, dtype: float64,1118710    113.281422
+Name: cas, dtype: float64
+00:00:00.00>CRE 1118796    AC0490
+Name: id, dtype: object,B744,1118796    0.102557
+Name: lat, dtype: float64,1118796    0.617718
+Name: lon, dtype: float64,1118796    86.160732
+Name: hdg, dtype: float64,1118796    10668.0
+Name: alt, dtype: float64,1118796    155.272315
+Name: cas, dtype: float64
+00:00:00.00>CRE 1118808    AC0502
+Name: id, dtype: object,B744,1118808    0.259461
+Name: lat, dtype: float64,1118808    0.468531
+Name: lon, dtype: float64,1118808    121.943227
+Name: hdg, dtype: float64,1118808    10668.0
+Name: alt, dtype: float64,1118808    139.678406
+Name: cas, dtype: float64
+00:00:00.00>CRE 1118857    AC0551
+Name: id, dtype: object,B744,1118857   -0.517993
+Name: lat, dtype: float64,1118857    0.839078
+Name: lon, dtype: float64,1118857    189.236418
+Name: hdg, dtype: float64,1118857    10668.0
+Name: alt, dtype: float64,1118857    121.283662
+Name: cas, dtype: float64
+00:00:00.00>CRE 1118869    AC0563
+Name: id, dtype: object,B744,1118869   -0.048111
+Name: lat, dtype: float64,1118869    0.381494
+Name: lon, dtype: float64,1118869    61.965139
+Name: hdg, dtype: float64,1118869    10668.0
+Name: alt, dtype: float64,1118869    132.826693
+Name: cas, dtype: float64
+00:00:00.00>CRE 1118873    AC0567
+Name: id, dtype: object,B744,1118873   -0.151456
+Name: lat, dtype: float64,1118873    0.48735
+Name: lon, dtype: float64,1118873    353.848898
+Name: hdg, dtype: float64,1118873    10668.0
+Name: alt, dtype: float64,1118873    108.288764
+Name: cas, dtype: float64
+00:00:00.00>CRE 1118879    AC0573
+Name: id, dtype: object,B744,1118879   -0.31313
+Name: lat, dtype: float64,1118879    1.218332
+Name: lon, dtype: float64,1118879    160.043337
+Name: hdg, dtype: float64,1118879    10668.0
+Name: alt, dtype: float64,1118879    134.951317
+Name: cas, dtype: float64
+00:00:00.00>CRE 1118885    AC0579
+Name: id, dtype: object,B744,1118885    0.318761
+Name: lat, dtype: float64,1118885   -0.682903
+Name: lon, dtype: float64,1118885    153.836807
+Name: hdg, dtype: float64,1118885    10668.0
+Name: alt, dtype: float64,1118885    122.908239
+Name: cas, dtype: float64
+00:00:00.00>CRE 1118887    AC0581
+Name: id, dtype: object,B744,1118887    0.334054
+Name: lat, dtype: float64,1118887    0.679836
+Name: lon, dtype: float64,1118887    337.6389
+Name: hdg, dtype: float64,1118887    10668.0
+Name: alt, dtype: float64,1118887    155.272315
+Name: cas, dtype: float64
+00:00:00.00>CRE 1118893    AC0587
+Name: id, dtype: object,B744,1118893    0.356938
+Name: lat, dtype: float64,1118893    0.537212
+Name: lon, dtype: float64,1118893    273.495167
+Name: hdg, dtype: float64,1118893    10668.0
+Name: alt, dtype: float64,1118893    155.149279
+Name: cas, dtype: float64
+00:00:00.00>CRE 1118917    AC0611
+Name: id, dtype: object,B744,1118917    0.174018
+Name: lat, dtype: float64,1118917   -0.180033
+Name: lon, dtype: float64,1118917    164.723973
+Name: hdg, dtype: float64,1118917    10668.0
+Name: alt, dtype: float64,1118917    108.288764
+Name: cas, dtype: float64
+00:00:00.00>CRE 1118920    AC0614
+Name: id, dtype: object,B744,1118920    0.339089
+Name: lat, dtype: float64,1118920   -0.232984
+Name: lon, dtype: float64,1118920    144.740455
+Name: hdg, dtype: float64,1118920    10668.0
+Name: alt, dtype: float64,1118920    143.902226
+Name: cas, dtype: float64
+00:00:00.00>CRE 1118971    AC0665
+Name: id, dtype: object,B744,1118971    0.025736
+Name: lat, dtype: float64,1118971    0.523854
+Name: lon, dtype: float64,1118971    301.149464
+Name: hdg, dtype: float64,1118971    10668.0
+Name: alt, dtype: float64,1118971    155.272315
+Name: cas, dtype: float64
+00:00:00.00>CRE 1118487    AC0159
+Name: id, dtype: object,B744,1118487   -2.017056
+Name: lat, dtype: float64,1118487    2.373316
+Name: lon, dtype: float64,1118487    165.845759
+Name: hdg, dtype: float64,1118487    10668.0
+Name: alt, dtype: float64,1118487    131.615598
+Name: cas, dtype: float64
+00:00:00.00>CRE 1118490    AC0162
+Name: id, dtype: object,B744,1118490    3.001314
+Name: lat, dtype: float64,1118490   -0.227596
+Name: lon, dtype: float64,1118490    232.270003
+Name: hdg, dtype: float64,1118490    10668.0
+Name: alt, dtype: float64,1118490    155.272315
+Name: cas, dtype: float64
+00:00:00.00>CRE 1118636    AC0330
+Name: id, dtype: object,B744,1118636   -0.693428
+Name: lat, dtype: float64,1118636    1.790194
+Name: lon, dtype: float64,1118636    114.359217
+Name: hdg, dtype: float64,1118636    10668.0
+Name: alt, dtype: float64,1118636    151.270529
+Name: cas, dtype: float64
+00:00:00.00>CRE 1118675    AC0369
+Name: id, dtype: object,B744,1118675   -0.002803
+Name: lat, dtype: float64,1118675    0.927964
+Name: lon, dtype: float64,1118675    80.221685
+Name: hdg, dtype: float64,1118675    10668.0
+Name: alt, dtype: float64,1118675    135.628549
+Name: cas, dtype: float64
+00:00:00.00>CRE 1118722    AC0416
+Name: id, dtype: object,B744,1118722   -0.300384
+Name: lat, dtype: float64,1118722    0.566053
+Name: lon, dtype: float64,1118722    177.152011
+Name: hdg, dtype: float64,1118722    10668.0
+Name: alt, dtype: float64,1118722    108.288764
+Name: cas, dtype: float64
+00:00:00.00>CRE 1118739    AC0433
+Name: id, dtype: object,B744,1118739   -0.77036
+Name: lat, dtype: float64,1118739   -1.706914
+Name: lon, dtype: float64,1118739    289.126991
+Name: hdg, dtype: float64,1118739    10668.0
+Name: alt, dtype: float64,1118739    119.135581
+Name: cas, dtype: float64
+00:00:00.00>CRE 1118749    AC0443
+Name: id, dtype: object,B744,1118749   -0.113091
+Name: lat, dtype: float64,1118749    0.62181
+Name: lon, dtype: float64,1118749    97.476353
+Name: hdg, dtype: float64,1118749    10668.0
+Name: alt, dtype: float64,1118749    112.285934
+Name: cas, dtype: float64
+00:00:00.00>CRE 1118758    AC0452
+Name: id, dtype: object,B744,1118758    0.15524
+Name: lat, dtype: float64,1118758    0.314335
+Name: lon, dtype: float64,1118758    51.155637
+Name: hdg, dtype: float64,1118758    10668.0
+Name: alt, dtype: float64,1118758    155.272315
+Name: cas, dtype: float64
+00:00:00.00>CRE 1118830    AC0524
+Name: id, dtype: object,B744,1118830   -0.891815
+Name: lat, dtype: float64,1118830    1.311856
+Name: lon, dtype: float64,1118830    159.900765
+Name: hdg, dtype: float64,1118830    10668.0
+Name: alt, dtype: float64,1118830    131.350837
+Name: cas, dtype: float64
+00:00:00.00>CRE 1118854    AC0548
+Name: id, dtype: object,B744,1118854   -0.137079
+Name: lat, dtype: float64,1118854   -0.426617
+Name: lon, dtype: float64,1118854    55.895996
+Name: hdg, dtype: float64,1118854    10668.0
+Name: alt, dtype: float64,1118854    108.288764
+Name: cas, dtype: float64
+00:00:00.00>CRE 1118861    AC0555
+Name: id, dtype: object,B744,1118861   -0.17386
+Name: lat, dtype: float64,1118861    1.344383
+Name: lon, dtype: float64,1118861    57.570054
+Name: hdg, dtype: float64,1118861    10668.0
+Name: alt, dtype: float64,1118861    111.821912
+Name: cas, dtype: float64
+00:00:00.00>CRE 1118896    AC0590
+Name: id, dtype: object,B744,1118896   -0.427192
+Name: lat, dtype: float64,1118896   -0.370638
+Name: lon, dtype: float64,1118896    21.727022
+Name: hdg, dtype: float64,1118896    10668.0
+Name: alt, dtype: float64,1118896    112.825385
+Name: cas, dtype: float64
+00:00:00.00>CRE 1118902    AC0596
+Name: id, dtype: object,B744,1118902    0.15611
+Name: lat, dtype: float64,1118902   -0.087063
+Name: lon, dtype: float64,1118902    65.011421
+Name: hdg, dtype: float64,1118902    10668.0
+Name: alt, dtype: float64,1118902    149.712563
+Name: cas, dtype: float64
+00:00:00.00>CRE 1118933    AC0627
+Name: id, dtype: object,B744,1118933   -0.324952
+Name: lat, dtype: float64,1118933   -0.827635
+Name: lon, dtype: float64,1118933    54.706378
+Name: hdg, dtype: float64,1118933    10668.0
+Name: alt, dtype: float64,1118933    152.121802
+Name: cas, dtype: float64
+00:00:00.00>CRE 1118943    AC0637
+Name: id, dtype: object,B744,1118943    0.348044
+Name: lat, dtype: float64,1118943    0.427138
+Name: lon, dtype: float64,1118943    234.991115
+Name: hdg, dtype: float64,1118943    10668.0
+Name: alt, dtype: float64,1118943    155.272315
+Name: cas, dtype: float64
+00:00:00.00>CRE 1118946    AC0640
+Name: id, dtype: object,B744,1118946   -0.961637
+Name: lat, dtype: float64,1118946    0.785816
+Name: lon, dtype: float64,1118946    321.89171
+Name: hdg, dtype: float64,1118946    10668.0
+Name: alt, dtype: float64,1118946    155.272315
+Name: cas, dtype: float64
+00:00:00.00>CRE 1118948    AC0642
+Name: id, dtype: object,B744,1118948    0.50354
+Name: lat, dtype: float64,1118948   -0.743656
+Name: lon, dtype: float64,1118948    163.865946
+Name: hdg, dtype: float64,1118948    10668.0
+Name: alt, dtype: float64,1118948    146.062157
+Name: cas, dtype: float64
+00:00:00.00>CRE 1118958    AC0652
+Name: id, dtype: object,B744,1118958   -0.431191
+Name: lat, dtype: float64,1118958    0.902365
+Name: lon, dtype: float64,1118958    304.323379
+Name: hdg, dtype: float64,1118958    10668.0
+Name: alt, dtype: float64,1118958    155.272315
+Name: cas, dtype: float64
+00:00:00.00>CRE 1118961    AC0655
+Name: id, dtype: object,B744,1118961   -0.725015
+Name: lat, dtype: float64,1118961    0.401504
+Name: lon, dtype: float64,1118961    348.391589
+Name: hdg, dtype: float64,1118961    10668.0
+Name: alt, dtype: float64,1118961    114.663694
+Name: cas, dtype: float64
+00:00:00.00>CRE 1118968    AC0662
+Name: id, dtype: object,B744,1118968   -0.362959
+Name: lat, dtype: float64,1118968    0.490953
+Name: lon, dtype: float64,1118968    339.662209
+Name: hdg, dtype: float64,1118968    10668.0
+Name: alt, dtype: float64,1118968    144.87615
+Name: cas, dtype: float64
+00:00:00.00>CRE 1119013    AC0707
+Name: id, dtype: object,B744,1119013   -0.207069
+Name: lat, dtype: float64,1119013    0.736026
+Name: lon, dtype: float64,1119013    257.991233
+Name: hdg, dtype: float64,1119013    10668.0
+Name: alt, dtype: float64,1119013    155.272315
+Name: cas, dtype: float64
+00:00:00.00>CRE 1119022    AC0716
+Name: id, dtype: object,B744,1119022   -0.936844
+Name: lat, dtype: float64,1119022    0.536677
+Name: lon, dtype: float64,1119022    323.501855
+Name: hdg, dtype: float64,1119022    10668.0
+Name: alt, dtype: float64,1119022    155.272315
+Name: cas, dtype: float64
+00:00:00.00>CRE 1119024    AC0718
+Name: id, dtype: object,B744,1119024   -1.493251
+Name: lat, dtype: float64,1119024    0.806869
+Name: lon, dtype: float64,1119024    280.54514
+Name: hdg, dtype: float64,1119024    10668.0
+Name: alt, dtype: float64,1119024    124.139183
+Name: cas, dtype: float64
+00:00:00.00>CRE 1119048    AC0742
+Name: id, dtype: object,B744,1119048   -0.524543
+Name: lat, dtype: float64,1119048    1.070299
+Name: lon, dtype: float64,1119048    290.212253
+Name: hdg, dtype: float64,1119048    10668.0
+Name: alt, dtype: float64,1119048    155.272315
+Name: cas, dtype: float64
+00:00:00.00>CRE 1119064    AC0758
+Name: id, dtype: object,B744,1119064   -0.98883
+Name: lat, dtype: float64,1119064   -1.37934
+Name: lon, dtype: float64,1119064    71.760928
+Name: hdg, dtype: float64,1119064    10668.0
+Name: alt, dtype: float64,1119064    134.29741
+Name: cas, dtype: float64
+00:00:00.00>CRE 1119066    AC0760
+Name: id, dtype: object,B744,1119066   -1.262344
+Name: lat, dtype: float64,1119066    1.356818
+Name: lon, dtype: float64,1119066    289.981845
+Name: hdg, dtype: float64,1119066    10668.0
+Name: alt, dtype: float64,1119066    155.272315
+Name: cas, dtype: float64
+00:00:00.00>CRE 1119070    AC0764
+Name: id, dtype: object,B744,1119070   -1.386838
+Name: lat, dtype: float64,1119070   -1.451039
+Name: lon, dtype: float64,1119070    60.572751
+Name: hdg, dtype: float64,1119070    10668.0
+Name: alt, dtype: float64,1119070    155.272315
+Name: cas, dtype: float64
+00:00:00.00>CRE 1119084    AC0778
+Name: id, dtype: object,B744,1119084   -1.55265
+Name: lat, dtype: float64,1119084    1.102239
+Name: lon, dtype: float64,1119084    316.023518
+Name: hdg, dtype: float64,1119084    10668.0
+Name: alt, dtype: float64,1119084    149.692631
+Name: cas, dtype: float64
+00:00:00.00>CRE 1119192    AC0886
+Name: id, dtype: object,B744,1119192   -2.408924
+Name: lat, dtype: float64,1119192   -1.754039
+Name: lon, dtype: float64,1119192    43.046085
+Name: hdg, dtype: float64,1119192    10668.0
+Name: alt, dtype: float64,1119192    123.837388
+Name: cas, dtype: float64
+00:00:00.00>CRE 1119246    AC0940
+Name: id, dtype: object,B744,1119246   -2.809798
+Name: lat, dtype: float64,1119246   -2.273209
+Name: lon, dtype: float64,1119246    42.160288
+Name: hdg, dtype: float64,1119246    10668.0
+Name: alt, dtype: float64,1119246    154.224577
+Name: cas, dtype: float64
+00:00:00.00>CRE 1118975    AC0669
+Name: id, dtype: object,B744,1118975   -1.42848
+Name: lat, dtype: float64,1118975    0.633836
+Name: lon, dtype: float64,1118975    227.961383
+Name: hdg, dtype: float64,1118975    10668.0
+Name: alt, dtype: float64,1118975    121.127861
+Name: cas, dtype: float64
+00:00:00.00>CRE 1119004    AC0698
+Name: id, dtype: object,B744,1119004    1.105341
+Name: lat, dtype: float64,1119004   -0.234526
+Name: lon, dtype: float64,1119004    214.864223
+Name: hdg, dtype: float64,1119004    10668.0
+Name: alt, dtype: float64,1119004    123.286506
+Name: cas, dtype: float64
+00:00:00.00>CRE 1119020    AC0714
+Name: id, dtype: object,B744,1119020    0.856464
+Name: lat, dtype: float64,1119020   -0.612161
+Name: lon, dtype: float64,1119020    160.119451
+Name: hdg, dtype: float64,1119020    10668.0
+Name: alt, dtype: float64,1119020    144.617522
+Name: cas, dtype: float64
+00:00:00.00>CRE 1119035    AC0729
+Name: id, dtype: object,B744,1119035    1.378442
+Name: lat, dtype: float64,1119035   -0.147266
+Name: lon, dtype: float64,1119035    212.726515
+Name: hdg, dtype: float64,1119035    10668.0
+Name: alt, dtype: float64,1119035    123.910775
+Name: cas, dtype: float64
+00:00:00.00>CRE 1119059    AC0753
+Name: id, dtype: object,B744,1119059    1.128633
+Name: lat, dtype: float64,1119059   -0.432214
+Name: lon, dtype: float64,1119059    176.042725
+Name: hdg, dtype: float64,1119059    10668.0
+Name: alt, dtype: float64,1119059    154.628314
+Name: cas, dtype: float64
+00:00:00.00>CRE 1119097    AC0791
+Name: id, dtype: object,B744,1119097    1.030239
+Name: lat, dtype: float64,1119097   -1.60567
+Name: lon, dtype: float64,1119097    115.428587
+Name: hdg, dtype: float64,1119097    10668.0
+Name: alt, dtype: float64,1119097    139.243726
+Name: cas, dtype: float64
+00:00:00.00>CRE 1119123    AC0817
+Name: id, dtype: object,B744,1119123    1.692302
+Name: lat, dtype: float64,1119123   -1.156883
+Name: lon, dtype: float64,1119123    176.828553
+Name: hdg, dtype: float64,1119123    10668.0
+Name: alt, dtype: float64,1119123    108.288764
+Name: cas, dtype: float64
+00:00:00.00>CRE 1119179    AC0873
+Name: id, dtype: object,B744,1119179   -1.926058
+Name: lat, dtype: float64,1119179   -2.283132
+Name: lon, dtype: float64,1119179    46.336407
+Name: hdg, dtype: float64,1119179    10668.0
+Name: alt, dtype: float64,1119179    134.867068
+Name: cas, dtype: float64
+00:00:00.00>CRE 1119189    AC0883
+Name: id, dtype: object,B744,1119189    1.358522
+Name: lat, dtype: float64,1119189   -2.386031
+Name: lon, dtype: float64,1119189    109.924066
+Name: hdg, dtype: float64,1119189    10668.0
+Name: alt, dtype: float64,1119189    154.865985
+Name: cas, dtype: float64
+00:00:00.00>CRE 1119207    AC0901
+Name: id, dtype: object,B744,1119207    0.531081
+Name: lat, dtype: float64,1119207   -2.515738
+Name: lon, dtype: float64,1119207    104.372237
+Name: hdg, dtype: float64,1119207    10668.0
+Name: alt, dtype: float64,1119207    155.272315
+Name: cas, dtype: float64

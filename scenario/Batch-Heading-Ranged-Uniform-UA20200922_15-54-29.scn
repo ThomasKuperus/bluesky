@@ -1,0 +1,70 @@
+# ########################################### #
+# Batch: Batch-Heading-Ranged-Uniform-UA20200922_15-54-29
+# Number of scn files: 9 
+# ########################################### #
+
+00:00:00.00>PLUGIN conf_data_log
+
+00:00:00.00>SCEN Heading-Ranged-Uniform-UA-Inst46-Rep1_20200922_15-54-29
+00:00:00.00>PCALL Heading-Ranged-Uniform-UA-Inst46-Rep1_20200922_15-54-29.scn
+00:00:00.00>PCALL areaDefiniton_20200922_15-54-29.scn
+00:00:00.00>PCALL settingsOFF.scn
+00:00:00.00>FF
+00:00:00.00>SCHEDULE 03:00:00.00 HOLD 
+
+00:00:00.00>SCEN Heading-Ranged-Uniform-UA-Inst46-Rep2_20200922_15-54-29
+00:00:00.00>PCALL Heading-Ranged-Uniform-UA-Inst46-Rep2_20200922_15-54-29.scn
+00:00:00.00>PCALL areaDefiniton_20200922_15-54-29.scn
+00:00:00.00>PCALL settingsOFF.scn
+00:00:00.00>FF
+00:00:00.00>SCHEDULE 03:00:00.00 HOLD 
+
+00:00:00.00>SCEN Heading-Ranged-Uniform-UA-Inst46-Rep3_20200922_15-54-29
+00:00:00.00>PCALL Heading-Ranged-Uniform-UA-Inst46-Rep3_20200922_15-54-29.scn
+00:00:00.00>PCALL areaDefiniton_20200922_15-54-29.scn
+00:00:00.00>PCALL settingsOFF.scn
+00:00:00.00>FF
+00:00:00.00>SCHEDULE 03:00:00.00 HOLD 
+
+00:00:00.00>SCEN Heading-Ranged-Uniform-UA-Inst72-Rep1_20200922_15-54-29
+00:00:00.00>PCALL Heading-Ranged-Uniform-UA-Inst72-Rep1_20200922_15-54-29.scn
+00:00:00.00>PCALL areaDefiniton_20200922_15-54-29.scn
+00:00:00.00>PCALL settingsOFF.scn
+00:00:00.00>FF
+00:00:00.00>SCHEDULE 03:00:00.00 HOLD 
+
+00:00:00.00>SCEN Heading-Ranged-Uniform-UA-Inst72-Rep2_20200922_15-54-29
+00:00:00.00>PCALL Heading-Ranged-Uniform-UA-Inst72-Rep2_20200922_15-54-29.scn
+00:00:00.00>PCALL areaDefiniton_20200922_15-54-29.scn
+00:00:00.00>PCALL settingsOFF.scn
+00:00:00.00>FF
+00:00:00.00>SCHEDULE 03:00:00.00 HOLD 
+
+00:00:00.00>SCEN Heading-Ranged-Uniform-UA-Inst72-Rep3_20200922_15-54-29
+00:00:00.00>PCALL Heading-Ranged-Uniform-UA-Inst72-Rep3_20200922_15-54-29.scn
+00:00:00.00>PCALL areaDefiniton_20200922_15-54-29.scn
+00:00:00.00>PCALL settingsOFF.scn
+00:00:00.00>FF
+00:00:00.00>SCHEDULE 03:00:00.00 HOLD 
+
+00:00:00.00>SCEN Heading-Ranged-Uniform-UA-Inst115-Rep1_20200922_15-54-29
+00:00:00.00>PCALL Heading-Ranged-Uniform-UA-Inst115-Rep1_20200922_15-54-29.scn
+00:00:00.00>PCALL areaDefiniton_20200922_15-54-29.scn
+00:00:00.00>PCALL settingsOFF.scn
+00:00:00.00>FF
+00:00:00.00>SCHEDULE 03:00:00.00 HOLD 
+
+00:00:00.00>SCEN Heading-Ranged-Uniform-UA-Inst115-Rep2_20200922_15-54-29
+00:00:00.00>PCALL Heading-Ranged-Uniform-UA-Inst115-Rep2_20200922_15-54-29.scn
+00:00:00.00>PCALL areaDefiniton_20200922_15-54-29.scn
+00:00:00.00>PCALL settingsOFF.scn
+00:00:00.00>FF
+00:00:00.00>SCHEDULE 03:00:00.00 HOLD 
+
+00:00:00.00>SCEN Heading-Ranged-Uniform-UA-Inst115-Rep3_20200922_15-54-29
+00:00:00.00>PCALL Heading-Ranged-Uniform-UA-Inst115-Rep3_20200922_15-54-29.scn
+00:00:00.00>PCALL areaDefiniton_20200922_15-54-29.scn
+00:00:00.00>PCALL settingsOFF.scn
+00:00:00.00>FF
+00:00:00.00>SCHEDULE 03:00:00.00 HOLD 
+

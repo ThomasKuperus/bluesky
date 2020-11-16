@@ -1,0 +1,10 @@
+00:00:00.00>SCEN TEST
+00:00:00.00>IC test_batch_scen1.scn
+
+#00:10:00.00>RESET
+00:10:00.00>SCEN TEST2
+00:10:00.00>IC test_batch_scen2.scn
+
+#00:20:00.00>RESET
+00:20:00.00>SCEN TEST3
+00:20:00.00>IC test_batch_scen3.scn

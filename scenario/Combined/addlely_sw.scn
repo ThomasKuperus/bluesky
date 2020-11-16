@@ -1,0 +1,12 @@
+00:00:00.00>polyline starlely1 52.764644,5.639713 52.54119,5.671193
+00:00:00.00>color starlely1 green
+00:00:00.00>polyline starlely2 52.633126,6.23363 52.576943,5.734152
+00:00:00.00>color starlely3 green
+00:00:00.00>color starlely2 green
+00:00:00.00>polyline sidlely1 52.348868,5.565163 52.292685,5.694885
+00:00:00.00>color sidlely1 pink
+00:00:00.00>polyline sidlely2 52.39739,5.416611 52.22118,4.770093
+00:00:00.00>color sidlely2 pink
+00:00:00.00>polyline sidlely3 52.334823,5.192735 52.632335,4.962584
+00:00:00.00>color polyline sidlely4 pink
+00:00:00.00>color sidlely3 pink
