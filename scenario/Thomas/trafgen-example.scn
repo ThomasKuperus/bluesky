@@ -1,0 +1,16 @@
+# Traffic generator scenario file made with an SLR file
+#
+
+00:00:00.00>plugin load trafgen
+00:00:00.00>PAN 30,-40
+00:00:00.00>ASAS ON
+00:00:00.00>RESO MVP
+# Define spawning circle SPAWN with centerlat[deg],centerlon[deg],radius[nm]
+00:00:00.00>TRAFGEN CIRCLE 30,-40,100.0
+
+# Global gain (factor) for traffic generation/density
+00:00:00.00>TRAFGEN GAIN 1.0
+
+#00:00:01.00>TRAFGEN SRC SEGM30 FLOW 1
+#00:00:02.00>TRAFGEN SRC SEGM330 FLOW 10
+#00:00:02.00>TRAFGEN SRC SEGM200 FLOW 10

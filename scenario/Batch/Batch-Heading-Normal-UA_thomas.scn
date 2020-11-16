@@ -1,0 +1,11 @@
+# ########################################### #
+# Batch: Batch-Heading-Normal-UA
+# Number of scn files: 5 
+# ########################################### #
+
+
+00:00:00.00>SCEN Heading-Normal-UA-Inst201-Rep1
+00:00:00.00>PCALL Heading-Normal-UA-Inst201-Rep1.scn
+00:00:00.00>PCALL areaDefiniton_thomas.scn
+#00:00:00.00>PCALL settingsOFF.scn
+03:00:00.00>HOLD 

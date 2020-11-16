@@ -1,0 +1,29 @@
+# ########################################### #
+# Batch: Batch-Heading-Normal-UA
+# Number of scn files: 5 
+# ########################################### #
+
+
+00:00:00.00>SCEN TEST
+00:00:00.00>PCALL TEST_BATCH.scn
+00:00:00.00>PCALL areaDefiniton.scn
+#00:00:00.00>PCALL settings-datalog.scn
+#00:00:00.00>FF
+00:00:30.00>HOLD
+#00:00:00.00>OP
+
+00:00:00.00>SCEN TEST2
+00:00:00.00>PCALL TEST_BATCH2.scn
+00:00:00.00>PCALL areaDefiniton.scn
+#00:00:00.00>PCALL settings-datalog.scn
+#00:00:00.00>OP
+#00:00:00.00>FF
+00:00:30.00>HOLD 
+
+#00:00:00.00>OP
+00:00:00.00>SCEN TEST3
+00:00:00.00>PCALL TEST_BATCH.scn
+00:00:00.00>PCALL areaDefiniton.scn
+#00:00:00.00>PCALL settings-datalog.scn
+#00:00:00.00>FF
+00:00:30.00>HOLD 

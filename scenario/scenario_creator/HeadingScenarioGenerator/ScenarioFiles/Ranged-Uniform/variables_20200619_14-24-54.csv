@@ -1,0 +1,31 @@
+TASavg, 510
+TASmax, 535.5
+TASmin, 484.5
+gamma, 2.8266064014033825
+flightTimeMin, 0.7
+scenarioDuration, 2.5
+altMin, 35000.0
+sepMinimum, 5.0
+latCenter, 0.0
+lonCenter, 0.0
+altDel, 34300.0
+simAreaFactor, 1
+modelAreaFactor, 1
+altMax, 35000.0
+distMin, 357.0
+distMax, 357.0
+distAvg, 357.0
+sideLengthExpt, 357.0
+sideLengthSim, 714.0
+areaExpt, 127449.0
+areaSim, 509796.0
+densities, [25.         33.54101966 45.        ]
+nacInst, [318.6225    427.4769415 573.5205   ]
+spawnRate, [0.12643739 0.16963356 0.2275873 ]
+spawnInterval, [7.9090528  5.8950599  4.39391822]
+nacTotal, [1138. 1527. 2049.]
+coslatinv, 1.0
+exptLat, 2.9729953512782576
+exptLon, 2.9729953512782576
+simLat, 5.945990702556515
+simLon, 5.945990702556515

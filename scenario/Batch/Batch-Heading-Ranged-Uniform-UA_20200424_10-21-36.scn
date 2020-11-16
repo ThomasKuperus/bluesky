@@ -1,0 +1,20 @@
+# ########################################### #
+# Batch: Batch-Heading-Ranged-Uniform-UA
+# Number of scn files: 2 
+# ########################################### #
+
+#00:00:00.00 > PLUGIN conf_data_log
+
+#00:00:00.00>SCEN Heading-Ranged-Uniform-UA-Inst39-Rep1_20200424_10-21-32
+#00:00:00.00>PCALL Heading-Ranged-Uniform-UA-Inst39-Rep1_20200424_10-21-32.scn
+#00:00:00.00>PCALL areaDefiniton_20200424_10-21-36.scn
+#00:00:00.00>PCALL settings-datalog.scn
+#04:00:00.00>HOLD 
+
+00:00:00.00>SCEN Heading-Ranged-Uniform-UA-Inst79-Rep1_20200424_10-21-32
+00:00:00.00>PCALL Heading-Ranged-Uniform-UA-Inst79-Rep1_20200424_10-21-32.scn
+00:00:00.00>PCALL areaDefiniton_20200424_10-21-36.scn
+#00:00:00.00>PCALL settings-datalog.scn
+#04:00:00.00>HOLD 
+
+#00:00:00.00>reset

@@ -1,0 +1,78 @@
+# ########################################### #
+# ########################################### #
+# SUPER BATCH FOR Ranged-Uniform!!!!
+# Number of scn files: 18!
+# ########################################### #
+# ########################################### #
+
+
+# ########################################### #
+# Batch: Batch-Heading-Ranged-Uniform-UA20200619_14-24-54
+# Number of scn files: 9 
+# ########################################### #
+
+00:00:00.00>PLUGIN conf_data_log
+
+00:00:00.00>SCEN Heading-Ranged-Uniform-UA-Inst318-Rep1_spd_const_20200619_14-24-54
+00:00:00.00>PCALL Heading-Ranged-Uniform-UA-Inst318-Rep1_spd_const_20200619_14-24-54.scn
+00:00:00.00>PCALL areaDefiniton_20200619_14-24-54.scn
+00:00:00.00>PCALL settingsOFF.scn
+00:00:00.00>FF
+00:00:00.00>SCHEDULE 03:00:00.00 HOLD 
+
+00:00:00.00>SCEN Heading-Ranged-Uniform-UA-Inst318-Rep2_spd_const_20200619_14-24-54
+00:00:00.00>PCALL Heading-Ranged-Uniform-UA-Inst318-Rep2_spd_const_20200619_14-24-54.scn
+00:00:00.00>PCALL areaDefiniton_20200619_14-24-54.scn
+00:00:00.00>PCALL settingsOFF.scn
+00:00:00.00>FF
+00:00:00.00>SCHEDULE 03:00:00.00 HOLD 
+
+00:00:00.00>SCEN Heading-Ranged-Uniform-UA-Inst318-Rep3_spd_const_20200619_14-24-54
+00:00:00.00>PCALL Heading-Ranged-Uniform-UA-Inst318-Rep3_spd_const_20200619_14-24-54.scn
+00:00:00.00>PCALL areaDefiniton_20200619_14-24-54.scn
+00:00:00.00>PCALL settingsOFF.scn
+00:00:00.00>FF
+00:00:00.00>SCHEDULE 03:00:00.00 HOLD 
+
+00:00:00.00>SCEN Heading-Ranged-Uniform-UA-Inst427-Rep1_spd_const_20200619_14-24-54
+00:00:00.00>PCALL Heading-Ranged-Uniform-UA-Inst427-Rep1_spd_const_20200619_14-24-54.scn
+00:00:00.00>PCALL areaDefiniton_20200619_14-24-54.scn
+00:00:00.00>PCALL settingsOFF.scn
+00:00:00.00>FF
+00:00:00.00>SCHEDULE 03:00:00.00 HOLD 
+
+00:00:00.00>SCEN Heading-Ranged-Uniform-UA-Inst427-Rep2_spd_const_20200619_14-24-54
+00:00:00.00>PCALL Heading-Ranged-Uniform-UA-Inst427-Rep2_spd_const_20200619_14-24-54.scn
+00:00:00.00>PCALL areaDefiniton_20200619_14-24-54.scn
+00:00:00.00>PCALL settingsOFF.scn
+00:00:00.00>FF
+00:00:00.00>SCHEDULE 03:00:00.00 HOLD 
+
+00:00:00.00>SCEN Heading-Ranged-Uniform-UA-Inst427-Rep3_spd_const_20200619_14-24-54
+00:00:00.00>PCALL Heading-Ranged-Uniform-UA-Inst427-Rep3_spd_const_20200619_14-24-54.scn
+00:00:00.00>PCALL areaDefiniton_20200619_14-24-54.scn
+00:00:00.00>PCALL settingsOFF.scn
+00:00:00.00>FF
+00:00:00.00>SCHEDULE 03:00:00.00 HOLD 
+
+00:00:00.00>SCEN Heading-Ranged-Uniform-UA-Inst573-Rep1_spd_const_20200619_14-24-54
+00:00:00.00>PCALL Heading-Ranged-Uniform-UA-Inst573-Rep1_spd_const_20200619_14-24-54.scn
+00:00:00.00>PCALL areaDefiniton_20200619_14-24-54.scn
+00:00:00.00>PCALL settingsOFF.scn
+00:00:00.00>FF
+00:00:00.00>SCHEDULE 03:00:00.00 HOLD 
+
+00:00:00.00>SCEN Heading-Ranged-Uniform-UA-Inst573-Rep2_spd_const_20200619_14-24-54
+00:00:00.00>PCALL Heading-Ranged-Uniform-UA-Inst573-Rep2_spd_const_20200619_14-24-54.scn
+00:00:00.00>PCALL areaDefiniton_20200619_14-24-54.scn
+00:00:00.00>PCALL settingsOFF.scn
+00:00:00.00>FF
+00:00:00.00>SCHEDULE 03:00:00.00 HOLD 
+
+00:00:00.00>SCEN Heading-Ranged-Uniform-UA-Inst573-Rep3_spd_const_20200619_14-24-54
+00:00:00.00>PCALL Heading-Ranged-Uniform-UA-Inst573-Rep3_spd_const_20200619_14-24-54.scn
+00:00:00.00>PCALL areaDefiniton_20200619_14-24-54.scn
+00:00:00.00>PCALL settingsOFF.scn
+00:00:00.00>FF
+00:00:00.00>SCHEDULE 03:00:00.00 HOLD 
+

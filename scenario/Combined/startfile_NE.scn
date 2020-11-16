@@ -1,0 +1,19 @@
+00:00:00.00>call Lelystad/cities
+00:00:00.00>call amsterdam/urban
+00:00:00.00>call gh_urban
+00:00:00.00>call sua/SUA_EHAA_ABOVE_FL050
+%00:00:00.00>call sua/prohibited
+%00:00:00.00>call sua/danger
+%00:00:00.00>call sua/restricted
+
+
+
+
+
+00:00:00.00>call fir_ne
+00:00:00.00>call holdings
+00:00:00.10>call lelystad/ne/lelyrtene
+00:00:00.20>call Amsterdam/sid/drawroutesne
+00:00:00.20>call Amsterdam/star/map/EHAMarrNE
+00:00:00.20>call EHV/NE/SID_ne
+00:00:00.20>call EHV/NE/STAR_ne

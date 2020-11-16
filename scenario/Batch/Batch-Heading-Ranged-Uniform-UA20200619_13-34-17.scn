@@ -1,0 +1,70 @@
+# ########################################### #
+# Batch: Batch-Heading-Ranged-Uniform-UA20200619_13-34-17
+# Number of scn files: 9 
+# ########################################### #
+
+00:00:00.00>PLUGIN conf_data_log
+
+00:00:00.00>SCEN Heading-Ranged-Uniform-UA-Inst318-Rep1_spd_var_20200619_13-34-17
+00:00:00.00>PCALL Batch/Heading-Ranged-Uniform-UA-Inst318-Rep1_spd_var_20200619_13-34-17.scn
+00:00:00.00>PCALL Batch/areaDefiniton_20200619_13-34-17.scn
+00:00:00.00>PCALL Batch/settingsONv2.scn
+00:00:00.00>FF
+00:00:00.00>SCHEDULE 03:00:00.00 HOLD 
+
+00:00:00.00>SCEN Heading-Ranged-Uniform-UA-Inst318-Rep2_spd_var_20200619_13-34-17
+00:00:00.00>PCALL Batch/Heading-Ranged-Uniform-UA-Inst318-Rep2_spd_var_20200619_13-34-17.scn
+00:00:00.00>PCALL Batch/areaDefiniton_20200619_13-34-17.scn
+00:00:00.00>PCALL Batch/settingsONv2.scn
+00:00:00.00>FF
+00:00:00.00>SCHEDULE 03:00:00.00 HOLD 
+
+00:00:00.00>SCEN Heading-Ranged-Uniform-UA-Inst318-Rep3_spd_var_20200619_13-34-17
+00:00:00.00>PCALL Batch/Heading-Ranged-Uniform-UA-Inst318-Rep3_spd_var_20200619_13-34-17.scn
+00:00:00.00>PCALL Batch/areaDefiniton_20200619_13-34-17.scn
+00:00:00.00>PCALL Batch/settingsONv2.scn
+00:00:00.00>FF
+00:00:00.00>SCHEDULE 03:00:00.00 HOLD 
+
+00:00:00.00>SCEN Heading-Ranged-Uniform-UA-Inst427-Rep1_spd_var_20200619_13-34-17
+00:00:00.00>PCALL Batch/Heading-Ranged-Uniform-UA-Inst427-Rep1_spd_var_20200619_13-34-17.scn
+00:00:00.00>PCALL Batch/areaDefiniton_20200619_13-34-17.scn
+00:00:00.00>PCALL Batch/settingsONv2.scn
+00:00:00.00>FF
+00:00:00.00>SCHEDULE 03:00:00.00 HOLD 
+
+00:00:00.00>SCEN Heading-Ranged-Uniform-UA-Inst427-Rep2_spd_var_20200619_13-34-17
+00:00:00.00>PCALL Batch/Heading-Ranged-Uniform-UA-Inst427-Rep2_spd_var_20200619_13-34-17.scn
+00:00:00.00>PCALL Batch/areaDefiniton_20200619_13-34-17.scn
+00:00:00.00>PCALL Batch/settingsONv2.scn
+00:00:00.00>FF
+00:00:00.00>SCHEDULE 03:00:00.00 HOLD 
+
+00:00:00.00>SCEN Heading-Ranged-Uniform-UA-Inst427-Rep3_spd_var_20200619_13-34-17
+00:00:00.00>PCALL Batch/Heading-Ranged-Uniform-UA-Inst427-Rep3_spd_var_20200619_13-34-17.scn
+00:00:00.00>PCALL Batch/areaDefiniton_20200619_13-34-17.scn
+00:00:00.00>PCALL Batch/settingsONv2.scn
+00:00:00.00>FF
+00:00:00.00>SCHEDULE 03:00:00.00 HOLD 
+
+00:00:00.00>SCEN Heading-Ranged-Uniform-UA-Inst573-Rep1_spd_var_20200619_13-34-17
+00:00:00.00>PCALL Batch/Heading-Ranged-Uniform-UA-Inst573-Rep1_spd_var_20200619_13-34-17.scn
+00:00:00.00>PCALL Batch/areaDefiniton_20200619_13-34-17.scn
+00:00:00.00>PCALL Batch/settingsONv2.scn
+00:00:00.00>FF
+00:00:00.00>SCHEDULE 03:00:00.00 HOLD 
+
+00:00:00.00>SCEN Heading-Ranged-Uniform-UA-Inst573-Rep2_spd_var_20200619_13-34-17
+00:00:00.00>PCALL Batch/Heading-Ranged-Uniform-UA-Inst573-Rep2_spd_var_20200619_13-34-17.scn
+00:00:00.00>PCALL Batch/areaDefiniton_20200619_13-34-17.scn
+00:00:00.00>PCALL Batch/settingsONv2.scn
+00:00:00.00>FF
+00:00:00.00>SCHEDULE 03:00:00.00 HOLD 
+
+00:00:00.00>SCEN Heading-Ranged-Uniform-UA-Inst573-Rep3_spd_var_20200619_13-34-17
+00:00:00.00>PCALL Batch/Heading-Ranged-Uniform-UA-Inst573-Rep3_spd_var_20200619_13-34-17.scn
+00:00:00.00>PCALL Batch/areaDefiniton_20200619_13-34-17.scn
+00:00:00.00>PCALL Batch/settingsONv2.scn
+00:00:00.00>FF
+00:00:00.00>SCHEDULE 03:00:00.00 HOLD 
+

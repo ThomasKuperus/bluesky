@@ -2,6 +2,8 @@
 import numpy as np
 from bluesky import stack
 from bluesky.traffic.asas import ConflictResolution
+from bluesky.tools.aero import vcas2tas, vcas2mach, vtas2mach,vmach2tas
+
 
 
 class MVP(ConflictResolution):
@@ -249,7 +251,8 @@ class MVP(ConflictResolution):
         # Determine ASAS module commands for all aircraft--------------------------
 
         # Cap the velocity
-        newgscapped = np.maximum(ownship.perf.vmin,np.minimum(ownship.perf.vmax,newgs))
+        #newgscapped = np.maximum(vcas2tas(ownship.perf.vmin, ownship.alt), np.minimum(vcas2tas(ownship.perf.vmax, ownship.alt), newgs))
+        newgscapped = np.maximum(vcas2tas(ownship.perf.vmin, ownship.alt),np.minimum(vmach2tas(0.92, ownship.alt), newgs)) #https://www.skybrary.aero/index.php/B744
 
         # Cap the vertical speed
         vscapped = np.maximum(ownship.perf.vsmin,np.minimum(ownship.perf.vsmax,newvs))

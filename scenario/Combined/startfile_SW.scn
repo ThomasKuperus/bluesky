@@ -1,0 +1,23 @@
+
+%00:00:00.00>call Lelystad/cities
+%00:00:00.00>call amsterdam/urban
+%00:00:00.00>call combined/gh_urban
+00:00:00.00>call sua/SUA_EHAA_ABOVE_FL050
+%00:00:00.00>call combined/sua_names
+%00:00:00.00>call sua/prohibited
+%00:00:00.00>call sua/danger
+%00:00:00.00>call sua/restricted
+
+
+%00:00:00.00>call fir_sw
+00:00:05.00>call combined/newholdings
+00:00:15.00>call lelystad/sw/lelyrteSW
+00:00:10.20>call Amsterdam/sid/drawroutessw
+00:00:10.20>call Amsterdam/star/map/EHAMarrSW
+%00:00:15.00>call EHV/SW/SID_sw
+%00:00:15.00>call EHV/SW/STAR_sw
+%00:00:15.00>call Rotterdam/finalized/RTM_06_STAR
+%00:00:15.00>call Rotterdam/finalized/RTM_24_SID
+%00:00:15.00>call oa/sw/dep_s_w/KD_GERwp
+00:00:15.00>call other_mil/NE_VK/SEA_VKwpt
+%00:00:15:00>call combined/starzeel
