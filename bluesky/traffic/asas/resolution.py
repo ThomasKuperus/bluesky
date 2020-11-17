@@ -5,7 +5,6 @@ import bluesky as bs
 from bluesky.core import Entity
 from bluesky.stack import command
 
-
 bs.settings.set_variable_defaults(asas_mar=1.01)
 
 
@@ -39,6 +38,7 @@ class ConflictResolution(Entity, replaceable=True):
             self.vs = np.array([])  # vspeed provided by the ASAS [m/s]
             self.prevconfs = set()
             self.inivels = dict()
+            self.conflicts_nl = {}
 
     # By default all channels are controlled by self.active,
     # but they can be overloaded with separate variables or functions in a
@@ -88,12 +88,35 @@ class ConflictResolution(Entity, replaceable=True):
         # should then follow the auto pilot instructions.
         return ownship.ap.trk, ownship.ap.tas, ownship.ap.vs, ownship.ap.alt
 
+    @command(name='DTNOLOOKCR')
+    def setdtnolookCR(self, time : 'time' = -1.0):
+        ''' Set the interval (in [hh:mm:]sec) in which conflict detection
+            is skipped after a conflict resolution. '''
+        if time < 0.0:
+            return True, f'DTNOLOOK[time]\nCurrent value: {self.dtasas: .1f} sec'
+        bs.settings.dt_nolookcr = time
+        return True, f'Setting CR no-look to {time} sec'
+
     def update(self, conf, ownship, intruder):
         ''' Perform an update step of the Conflict Resolution implementation. '''
+
+        #Delete nolook pairs from confpairs
+        conf.confpairs = list(set(conf.confpairs) - self.conflicts_nl.keys())
+        #print(conf.confpairs)
+
+        #CR update
         if ConflictResolution.do_cr:
             if conf.confpairs:
                 self.trk, self.tas, self.vs, self.alt = self.resolve(conf, ownship, intruder)
             self.resumenav(conf, ownship, intruder)
+
+        #Add new confpairs to no look list
+        conflicts_cur = dict.fromkeys(conf.confpairs, 0)
+        self.conflicts_nl.update(conflicts_cur)
+        self.conflicts_nl = {k: v + 1 for k, v in self.conflicts_nl.items() if v+bs.settings.asas_dt<bs.settings.dt_nolookcr}
+        #print(self.conflicts_nl)
+
+
 
     def resumenav(self, conf, ownship, intruder):
         '''
