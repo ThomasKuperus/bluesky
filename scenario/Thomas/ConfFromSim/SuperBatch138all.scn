@@ -2,6 +2,7 @@
 00:00:00.00>PCALL Thomas/ConfFromSim/MVP_Heading-Ranged-Uniform-UA-Inst138-Rep1Conflicts1200s.scn
 00:00:00.00>PCALL Thomas/ConfFromSim/areaDefiniton_20201022_22-39-16.scn
 00:00:00.00>PCALL Thomas/ConfFromSim/settingsMVPAvg.scn
+#00:00:00.00>DTNOLOOKCR 0:0:1
 00:00:00.00>FF
 00:00:00.00>SCHEDULE 604:00:00.00 HOLD 
 
@@ -9,6 +10,7 @@
 00:00:00.00>PCALL Thomas/ConfFromSim/MVP_Heading-Ranged-Uniform-UA-Inst138-Rep2Conflicts1200s.scn
 00:00:00.00>PCALL Thomas/ConfFromSim/areaDefiniton_20201022_22-39-16.scn
 00:00:00.00>PCALL Thomas/ConfFromSim/settingsMVPAvg.scn
+#00:00:00.00> DTNOLOOKCR 0:0:10
 00:00:00.00>FF
 00:00:00.00>SCHEDULE 400:00:00.00 HOLD 
 
