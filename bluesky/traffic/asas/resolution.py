@@ -20,7 +20,6 @@ class ConflictResolution(Entity, replaceable=True):
         self.swprio = False  # switch priority on/off
         self.priocode = ''  # select priority mode
         self.resopairs = set()  # Resolved conflicts that are still before CPA
-
         # Resolution factors:
         # set < 1 to maneuver only a fraction of the resolution
         # set > 1 to add a margin to separation values
@@ -101,19 +100,37 @@ class ConflictResolution(Entity, replaceable=True):
         ''' Perform an update step of the Conflict Resolution implementation. '''
 
         #Delete nolook pairs from confpairs
-        conf.confpairs = list(set(conf.confpairs) - self.conflicts_nl.keys())
         #print(conf.confpairs)
+        #conf.confpairs = list(set(conf.confpairs) - self.conflicts_nl.keys())
+        conf.nolook= [True if c in list(self.conflicts_nl) else False for c in conf.confpairs ]
+        #self.nolookpairs = np.array([True if c in list(self.conflicts_nl) else False for c in conf.confpairs ])
+        #print(conf.nolook)
 
         #CR update
         if ConflictResolution.do_cr:
             if conf.confpairs:
-                self.trk, self.tas, self.vs, self.alt = self.resolve(conf, ownship, intruder)
+                #Current path goals, not the current path
+                trk_goal, tas_goal, vs_goal, alt_goal = self.trk, self.tas, self.vs, self.alt
+                #New path calculated by summed mvp
+                trk_new, tas_new, self.vs, self.alt,dv_new   = self.resolve(conf, ownship, intruder)
+                #If there is no dv, the new trajectory will be the current trajectory, but should be the goal
+                #For now only horizontal
+                dv_abs = dv_new[1]*dv_new[1]+dv_new[0]*dv_new[0]
+                reso = np.where(dv_abs==0,False,True)
+                self.trk = np.where(reso==True,trk_new,trk_goal)
+                self.tas = np.where(reso == True, tas_new, tas_goal)
+                #self.vs = np.where(reso == True, vs_new, vs_goal)
+                #self.alt = np.where(reso == True, alt_new, alt_goal)
+                #print(self.trk)
+                #print(self.tas)
             self.resumenav(conf, ownship, intruder)
 
         #Add new confpairs to no look list
         conflicts_cur = dict.fromkeys(conf.confpairs, 0)
-        self.conflicts_nl.update(conflicts_cur)
-        self.conflicts_nl = {k: v + 1 for k, v in self.conflicts_nl.items() if v+bs.settings.asas_dt<bs.settings.dt_nolookcr}
+        #print(conflicts_cur)
+        conflicts_cur.update(self.conflicts_nl)
+        #print(conflicts_cur)
+        self.conflicts_nl = {k: v + 1 for k, v in conflicts_cur.items() if v+bs.settings.asas_dt< bs.settings.dt_nolookcr}
         #print(self.conflicts_nl)
 
 

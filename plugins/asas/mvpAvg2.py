@@ -27,13 +27,13 @@ class MVPAvg(MVP):
         dv_mvp_all = np.zeros((nac, nac,3)) #Collect all dv
 
         # Call MVP function to resolve conflicts-----------------------------------
-        for ((ac1, ac2), qdr, dist, tcpa, tLOS) in zip(conf.confpairs, conf.qdr, conf.dist, conf.tcpa, conf.tLOS):
+        for ((ac1, ac2), qdr, dist, tcpa, tLOS,nolook) in zip(conf.confpairs, conf.qdr, conf.dist, conf.tcpa, conf.tLOS,conf.nolook):
             idx1 = ownship.id.index(ac1)
             idx2 = intruder.id.index(ac2)
 
             # If A/C indexes are found, then apply MVP on this conflict pair
             # Because ADSB is ON, this is done for each aircraft separately
-            if idx1 >-1 and idx2 > -1:
+            if idx1 >-1 and idx2 > -1 and nolook==False:
                 conf_count[idx1] = conf_count[idx1] + 1
                 #if conf_count[idx1]>sol_mat_depth:
                 #    sol_mat_depth = sol_mat_depth+1
@@ -143,4 +143,4 @@ class MVPAvg(MVP):
         # horizontal resolutions are allowed.
         alt = alt * (1 - self.swresohoriz) + ownship.selalt * self.swresohoriz
         #print('final', newtrack, newgscapped)
-        return newtrack, newgscapped, vscapped, alt
+        return newtrack, newgscapped, vscapped, alt,dv

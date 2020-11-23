@@ -1,0 +1,385 @@
+#
+#00:00:00.00>SCEN MVPAvgFTRasas10_Heading-Ranged-Uniform-UA-Inst138-Rep1Conflicts1200sonlyMACC
+#00:00:00.00>PCALL Thomas/ConfFromSim/MVP_Heading-Ranged-Uniform-UA-Inst138-Rep1Conflicts1200sonlyMACC.scn
+#00:00:00.00>PCALL Thomas/ConfFromSim/areaDefiniton_20201022_22-39-16.scn
+#00:00:00.00>PCALL Thomas/ConfFromSim/settingsMVPAvgFTR.scn
+#00:00:00.00>DTNOLOOKCR 0:0:0
+#00:00:00.00>FF
+#00:00:00.00>SCHEDULE 149:00:00.00 HOLD 
+#
+#00:00:00.00>SCEN MVPAvgFTRasas10_Heading-Ranged-Uniform-UA-Inst138-Rep2Conflicts1200sonlyMACC
+#00:00:00.00>PCALL Thomas/ConfFromSim/MVP_Heading-Ranged-Uniform-UA-Inst138-Rep2Conflicts1200sonlyMACC.scn
+#00:00:00.00>PCALL Thomas/ConfFromSim/areaDefiniton_20201022_22-39-16.scn
+#00:00:00.00>PCALL Thomas/ConfFromSim/settingsMVPAvgFTR.scn
+#00:00:00.00>DTNOLOOKCR 0:0:0
+#00:00:00.00>FF
+#00:00:00.00>SCHEDULE 109:00:00.00 HOLD 
+#
+#00:00:00.00>SCEN MVPAvgFTRasas10_Heading-Ranged-Uniform-UA-Inst138-Rep3Conflicts1200sonlyMACC
+#00:00:00.00>PCALL Thomas/ConfFromSim/MVP_Heading-Ranged-Uniform-UA-Inst138-Rep3Conflicts1200sonlyMACC.scn
+#00:00:00.00>PCALL Thomas/ConfFromSim/areaDefiniton_20201022_22-39-16.scn
+#00:00:00.00>PCALL Thomas/ConfFromSim/settingsMVPAvgFTR.scn
+#00:00:00.00>DTNOLOOKCR 0:0:0
+#00:00:00.00>FF
+#00:00:00.00>SCHEDULE 184:00:00.00 HOLD 
+#
+#00:00:00.00>SCEN MVPDistBigPrioFTRasas10_Heading-Ranged-Uniform-UA-Inst138-Rep1Conflicts1200sonlyMACC
+#00:00:00.00>PCALL Thomas/ConfFromSim/MVP_Heading-Ranged-Uniform-UA-Inst138-Rep1Conflicts1200sonlyMACC.scn
+#00:00:00.00>PCALL Thomas/ConfFromSim/areaDefiniton_20201022_22-39-16.scn
+#00:00:00.00>PCALL Thomas/ConfFromSim/settingsMVPDistBigPrioFTR.scn
+#00:00:00.00>DTNOLOOKCR 0:0:0
+#00:00:00.00>FF
+#00:00:00.00>SCHEDULE 149:00:00.00 HOLD 
+#
+#00:00:00.00>SCEN MVPDistBigPrioFTRasas10_Heading-Ranged-Uniform-UA-Inst138-Rep2Conflicts1200sonlyMACC
+#00:00:00.00>PCALL Thomas/ConfFromSim/MVP_Heading-Ranged-Uniform-UA-Inst138-Rep2Conflicts1200sonlyMACC.scn
+#00:00:00.00>PCALL Thomas/ConfFromSim/areaDefiniton_20201022_22-39-16.scn
+#00:00:00.00>PCALL Thomas/ConfFromSim/settingsMVPDistBigPrioFTR.scn
+#00:00:00.00>DTNOLOOKCR 0:0:0
+#00:00:00.00>FF
+#00:00:00.00>SCHEDULE 109:00:00.00 HOLD 
+#
+#00:00:00.00>SCEN MVPDistBigPrioFTRasas10_Heading-Ranged-Uniform-UA-Inst138-Rep3Conflicts1200sonlyMACC
+#00:00:00.00>PCALL Thomas/ConfFromSim/MVP_Heading-Ranged-Uniform-UA-Inst138-Rep3Conflicts1200sonlyMACC.scn
+#00:00:00.00>PCALL Thomas/ConfFromSim/areaDefiniton_20201022_22-39-16.scn
+#00:00:00.00>PCALL Thomas/ConfFromSim/settingsMVPDistBigPrioFTR.scn
+#00:00:00.00>DTNOLOOKCR 0:0:0
+#00:00:00.00>FF
+#00:00:00.00>SCHEDULE 184:00:00.00 HOLD 
+#
+00:00:00.00>SCEN MVPDistFTRasas10_Heading-Ranged-Uniform-UA-Inst138-Rep1Conflicts1200sonlyMACC
+00:00:00.00>PCALL Thomas/ConfFromSim/MVP_Heading-Ranged-Uniform-UA-Inst138-Rep1Conflicts1200sonlyMACC.scn
+00:00:00.00>PCALL Thomas/ConfFromSim/areaDefiniton_20201022_22-39-16.scn
+00:00:00.00>PCALL Thomas/ConfFromSim/settingsMVPDistFTR.scn
+00:00:00.00>DTNOLOOKCR 0:0:0
+00:00:00.00>FF
+00:00:00.00>SCHEDULE 149:00:00.00 HOLD 
+
+00:00:00.00>SCEN MVPDistFTRasas10_Heading-Ranged-Uniform-UA-Inst138-Rep2Conflicts1200sonlyMACC
+00:00:00.00>PCALL Thomas/ConfFromSim/MVP_Heading-Ranged-Uniform-UA-Inst138-Rep2Conflicts1200sonlyMACC.scn
+00:00:00.00>PCALL Thomas/ConfFromSim/areaDefiniton_20201022_22-39-16.scn
+00:00:00.00>PCALL Thomas/ConfFromSim/settingsMVPDistFTR.scn
+00:00:00.00>DTNOLOOKCR 0:0:0
+00:00:00.00>FF
+00:00:00.00>SCHEDULE 109:00:00.00 HOLD 
+
+00:00:00.00>SCEN MVPDistFTRasas10_Heading-Ranged-Uniform-UA-Inst138-Rep3Conflicts1200sonlyMACC
+00:00:00.00>PCALL Thomas/ConfFromSim/MVP_Heading-Ranged-Uniform-UA-Inst138-Rep3Conflicts1200sonlyMACC.scn
+00:00:00.00>PCALL Thomas/ConfFromSim/areaDefiniton_20201022_22-39-16.scn
+00:00:00.00>PCALL Thomas/ConfFromSim/settingsMVPDistFTR.scn
+00:00:00.00>DTNOLOOKCR 0:0:0
+00:00:00.00>FF
+00:00:00.00>SCHEDULE 184:00:00.00 HOLD 
+#
+#00:00:00.00>SCEN MVPTimeFTRasas10_Heading-Ranged-Uniform-UA-Inst138-Rep1Conflicts1200sonlyMACC
+#00:00:00.00>PCALL Thomas/ConfFromSim/MVP_Heading-Ranged-Uniform-UA-Inst138-Rep1Conflicts1200sonlyMACC.scn
+#00:00:00.00>PCALL Thomas/ConfFromSim/areaDefiniton_20201022_22-39-16.scn
+#00:00:00.00>PCALL Thomas/ConfFromSim/settingsMVPTimeFTR.scn
+#00:00:00.00>DTNOLOOKCR 0:0:0
+#00:00:00.00>FF
+#00:00:00.00>SCHEDULE 149:00:00.00 HOLD 
+#
+#00:00:00.00>SCEN MVPTimeFTRasas10_Heading-Ranged-Uniform-UA-Inst138-Rep2Conflicts1200sonlyMACC
+#00:00:00.00>PCALL Thomas/ConfFromSim/MVP_Heading-Ranged-Uniform-UA-Inst138-Rep2Conflicts1200sonlyMACC.scn
+#00:00:00.00>PCALL Thomas/ConfFromSim/areaDefiniton_20201022_22-39-16.scn
+#00:00:00.00>PCALL Thomas/ConfFromSim/settingsMVPTimeFTR.scn
+#00:00:00.00>DTNOLOOKCR 0:0:0
+#00:00:00.00>FF
+#00:00:00.00>SCHEDULE 109:00:00.00 HOLD 
+#
+#00:00:00.00>SCEN MVPTimeFTRasas10_Heading-Ranged-Uniform-UA-Inst138-Rep3Conflicts1200sonlyMACC
+#00:00:00.00>PCALL Thomas/ConfFromSim/MVP_Heading-Ranged-Uniform-UA-Inst138-Rep3Conflicts1200sonlyMACC.scn
+#00:00:00.00>PCALL Thomas/ConfFromSim/areaDefiniton_20201022_22-39-16.scn
+#00:00:00.00>PCALL Thomas/ConfFromSim/settingsMVPTimeFTR.scn
+#00:00:00.00>DTNOLOOKCR 0:0:0
+#00:00:00.00>FF
+#00:00:00.00>SCHEDULE 184:00:00.00 HOLD 
+##
+#00:00:00.00>SCEN MVPTimeBigPrioFTRasas10_Heading-Ranged-Uniform-UA-Inst138-Rep1Conflicts1200sonlyMACC
+#00:00:00.00>PCALL Thomas/ConfFromSim/MVP_Heading-Ranged-Uniform-UA-Inst138-Rep1Conflicts1200sonlyMACC.scn
+#00:00:00.00>PCALL Thomas/ConfFromSim/areaDefiniton_20201022_22-39-16.scn
+#00:00:00.00>PCALL Thomas/ConfFromSim/settingsMVPTimeBigPrioFTR.scn
+#00:00:00.00>DTNOLOOKCR 0:0:0
+#00:00:00.00>FF
+#00:00:00.00>SCHEDULE 149:00:00.00 HOLD 
+#
+#00:00:00.00>SCEN MVPTimeBigPrioFTRasas10_Heading-Ranged-Uniform-UA-Inst138-Rep2Conflicts1200sonlyMACC
+#00:00:00.00>PCALL Thomas/ConfFromSim/MVP_Heading-Ranged-Uniform-UA-Inst138-Rep2Conflicts1200sonlyMACC.scn
+#00:00:00.00>PCALL Thomas/ConfFromSim/areaDefiniton_20201022_22-39-16.scn
+#00:00:00.00>PCALL Thomas/ConfFromSim/settingsMVPTimeBigPrioFTR.scn
+#00:00:00.00>DTNOLOOKCR 0:0:0
+#00:00:00.00>FF
+#00:00:00.00>SCHEDULE 109:00:00.00 HOLD 
+#
+#00:00:00.00>SCEN MVPTimeBigPrioFTRasas10_Heading-Ranged-Uniform-UA-Inst138-Rep3Conflicts1200sonlyMACC
+#00:00:00.00>PCALL Thomas/ConfFromSim/MVP_Heading-Ranged-Uniform-UA-Inst138-Rep3Conflicts1200sonlyMACC.scn
+#00:00:00.00>PCALL Thomas/ConfFromSim/areaDefiniton_20201022_22-39-16.scn
+#00:00:00.00>PCALL Thomas/ConfFromSim/settingsMVPTimeBigPrioFTR.scn
+#00:00:00.00>DTNOLOOKCR 0:0:0
+#00:00:00.00>FF
+#00:00:00.00>SCHEDULE 184:00:00.00 HOLD 
+#
+#00:00:00.00>SCEN MVPSFNAFTRasas10_Heading-Ranged-Uniform-UA-Inst138-Rep1Conflicts1200sonlyMACC
+#00:00:00.00>PCALL Thomas/ConfFromSim/MVP_Heading-Ranged-Uniform-UA-Inst138-Rep1Conflicts1200sonlyMACC.scn
+#00:00:00.00>PCALL Thomas/ConfFromSim/areaDefiniton_20201022_22-39-16.scn
+#00:00:00.00>PCALL Thomas/ConfFromSim/settingsMVPSFNAFTR.scn
+#00:00:00.00>DTNOLOOKCR 0:0:0
+#00:00:00.00>FF
+#00:00:00.00>SCHEDULE 149:00:00.00 HOLD 
+#
+#00:00:00.00>SCEN MVPSFNAFTRasas10_Heading-Ranged-Uniform-UA-Inst138-Rep2Conflicts1200sonlyMACC
+#00:00:00.00>PCALL Thomas/ConfFromSim/MVP_Heading-Ranged-Uniform-UA-Inst138-Rep2Conflicts1200sonlyMACC.scn
+#00:00:00.00>PCALL Thomas/ConfFromSim/areaDefiniton_20201022_22-39-16.scn
+#00:00:00.00>PCALL Thomas/ConfFromSim/settingsMVPSFNAFTR.scn
+#00:00:00.00>DTNOLOOKCR 0:0:0
+#00:00:00.00>FF
+#00:00:00.00>SCHEDULE 109:00:00.00 HOLD 
+#
+#00:00:00.00>SCEN MVPSFNAFTRasas10_Heading-Ranged-Uniform-UA-Inst138-Rep3Conflicts1200sonlyMACC
+#00:00:00.00>PCALL Thomas/ConfFromSim/MVP_Heading-Ranged-Uniform-UA-Inst138-Rep3Conflicts1200sonlyMACC.scn
+#00:00:00.00>PCALL Thomas/ConfFromSim/areaDefiniton_20201022_22-39-16.scn
+#00:00:00.00>PCALL Thomas/ConfFromSim/settingsMVPSFNAFTR.scn
+#00:00:00.00>DTNOLOOKCR 0:0:0
+#00:00:00.00>FF
+#00:00:00.00>SCHEDULE 184:00:00.00 HOLD 
+#
+#00:00:00.00>SCEN MVPBFNAFTRasas10_Heading-Ranged-Uniform-UA-Inst138-Rep1Conflicts1200sonlyMACC
+#00:00:00.00>PCALL Thomas/ConfFromSim/MVP_Heading-Ranged-Uniform-UA-Inst138-Rep1Conflicts1200sonlyMACC.scn
+#00:00:00.00>PCALL Thomas/ConfFromSim/areaDefiniton_20201022_22-39-16.scn
+#00:00:00.00>PCALL Thomas/ConfFromSim/settingsMVPBFNAFTR.scn
+#00:00:00.00>DTNOLOOKCR 0:0:0
+#00:00:00.00>FF
+#00:00:00.00>SCHEDULE 149:00:00.00 HOLD 
+#
+#00:00:00.00>SCEN MVPBFNAFTRasas10_Heading-Ranged-Uniform-UA-Inst138-Rep2Conflicts1200sonlyMACC
+#00:00:00.00>PCALL Thomas/ConfFromSim/MVP_Heading-Ranged-Uniform-UA-Inst138-Rep2Conflicts1200sonlyMACC.scn
+#00:00:00.00>PCALL Thomas/ConfFromSim/areaDefiniton_20201022_22-39-16.scn
+#00:00:00.00>PCALL Thomas/ConfFromSim/settingsMVPBFNAFTR.scn
+#00:00:00.00>DTNOLOOKCR 0:0:0
+#00:00:00.00>FF
+#00:00:00.00>SCHEDULE 109:00:00.00 HOLD 
+#
+#00:00:00.00>SCEN MVPBFNAFTRasas10_Heading-Ranged-Uniform-UA-Inst138-Rep3Conflicts1200sonlyMACC
+#00:00:00.00>PCALL Thomas/ConfFromSim/MVP_Heading-Ranged-Uniform-UA-Inst138-Rep3Conflicts1200sonlyMACC.scn
+#00:00:00.00>PCALL Thomas/ConfFromSim/areaDefiniton_20201022_22-39-16.scn
+#00:00:00.00>PCALL Thomas/ConfFromSim/settingsMVPBFNAFTR.scn
+#00:00:00.00>DTNOLOOKCR 0:0:0
+#00:00:00.00>FF
+#00:00:00.00>SCHEDULE 184:00:00.00 HOLD 
+#
+#00:00:00.00>SCEN MVPFTRasas10_Heading-Ranged-Uniform-UA-Inst138-Rep1Conflicts1200sonlyMACC
+#00:00:00.00>PCALL Thomas/ConfFromSim/MVP_Heading-Ranged-Uniform-UA-Inst138-Rep1Conflicts1200sonlyMACC.scn
+#00:00:00.00>PCALL Thomas/ConfFromSim/areaDefiniton_20201022_22-39-16.scn
+#00:00:00.00>PCALL Thomas/ConfFromSim/settingsMVPFTR.scn
+#00:00:00.00>DTNOLOOKCR 0:0:0
+#00:00:00.00>FF
+#00:00:00.00>SCHEDULE 149:00:00.00 HOLD 
+#
+#00:00:00.00>SCEN MVPFTRasas10_Heading-Ranged-Uniform-UA-Inst138-Rep2Conflicts1200sonlyMACC
+#00:00:00.00>PCALL Thomas/ConfFromSim/MVP_Heading-Ranged-Uniform-UA-Inst138-Rep2Conflicts1200sonlyMACC.scn
+#00:00:00.00>PCALL Thomas/ConfFromSim/areaDefiniton_20201022_22-39-16.scn
+#00:00:00.00>PCALL Thomas/ConfFromSim/settingsMVPFTR.scn
+#00:00:00.00>DTNOLOOKCR 0:0:0
+#00:00:00.00>FF
+#00:00:00.00>SCHEDULE 109:00:00.00 HOLD 
+#
+#00:00:00.00>SCEN MVPFTRasas10_Heading-Ranged-Uniform-UA-Inst138-Rep3Conflicts1200sonlyMACC
+#00:00:00.00>PCALL Thomas/ConfFromSim/MVP_Heading-Ranged-Uniform-UA-Inst138-Rep3Conflicts1200sonlyMACC.scn
+#00:00:00.00>PCALL Thomas/ConfFromSim/areaDefiniton_20201022_22-39-16.scn
+#00:00:00.00>PCALL Thomas/ConfFromSim/settingsMVPFTR.scn
+#00:00:00.00>DTNOLOOKCR 0:0:0
+#00:00:00.00>FF
+#00:00:00.00>SCHEDULE 184:00:00.00 HOLD 
+#
+
+#00:00:00.00>SCEN MVPAvgasas10_Heading-Ranged-Uniform-UA-Inst138-Rep1Conflicts1200sonlyMACC
+#00:00:00.00>PCALL Thomas/ConfFromSim/MVP_Heading-Ranged-Uniform-UA-Inst138-Rep1Conflicts1200sonlyMACC.scn
+#00:00:00.00>PCALL Thomas/ConfFromSim/areaDefiniton_20201022_22-39-16.scn
+#00:00:00.00>PCALL Thomas/ConfFromSim/settingsMVPAvg.scn
+#00:00:00.00>DTNOLOOKCR 0:0:0
+#00:00:00.00>FF
+#00:00:00.00>SCHEDULE 149:00:00.00 HOLD 
+#
+#00:00:00.00>SCEN MVPAvgasas10_Heading-Ranged-Uniform-UA-Inst138-Rep2Conflicts1200sonlyMACC
+#00:00:00.00>PCALL Thomas/ConfFromSim/MVP_Heading-Ranged-Uniform-UA-Inst138-Rep2Conflicts1200sonlyMACC.scn
+#00:00:00.00>PCALL Thomas/ConfFromSim/areaDefiniton_20201022_22-39-16.scn
+#00:00:00.00>PCALL Thomas/ConfFromSim/settingsMVPAvg.scn
+#00:00:00.00>DTNOLOOKCR 0:0:0
+#00:00:00.00>FF
+#00:00:00.00>SCHEDULE 109:00:00.00 HOLD 
+#
+#00:00:00.00>SCEN MVPAvgasas10_Heading-Ranged-Uniform-UA-Inst138-Rep3Conflicts1200sonlyMACC
+#00:00:00.00>PCALL Thomas/ConfFromSim/MVP_Heading-Ranged-Uniform-UA-Inst138-Rep3Conflicts1200sonlyMACC.scn
+#00:00:00.00>PCALL Thomas/ConfFromSim/areaDefiniton_20201022_22-39-16.scn
+#00:00:00.00>PCALL Thomas/ConfFromSim/settingsMVPAvg.scn
+#00:00:00.00>DTNOLOOKCR 0:0:0
+#00:00:00.00>FF
+#00:00:00.00>SCHEDULE 184:00:00.00 HOLD 
+#
+#00:00:00.00>SCEN MVPDistBigPrioasas10_Heading-Ranged-Uniform-UA-Inst138-Rep1Conflicts1200sonlyMACC
+#00:00:00.00>PCALL Thomas/ConfFromSim/MVP_Heading-Ranged-Uniform-UA-Inst138-Rep1Conflicts1200sonlyMACC.scn
+#00:00:00.00>PCALL Thomas/ConfFromSim/areaDefiniton_20201022_22-39-16.scn
+#00:00:00.00>PCALL Thomas/ConfFromSim/settingsMVPDistBigPrio.scn
+#00:00:00.00>DTNOLOOKCR 0:0:0
+#00:00:00.00>FF
+#00:00:00.00>SCHEDULE 149:00:00.00 HOLD 
+#
+#00:00:00.00>SCEN MVPDistBigPrioasas10_Heading-Ranged-Uniform-UA-Inst138-Rep2Conflicts1200sonlyMACC
+#00:00:00.00>PCALL Thomas/ConfFromSim/MVP_Heading-Ranged-Uniform-UA-Inst138-Rep2Conflicts1200sonlyMACC.scn
+#00:00:00.00>PCALL Thomas/ConfFromSim/areaDefiniton_20201022_22-39-16.scn
+#00:00:00.00>PCALL Thomas/ConfFromSim/settingsMVPDistBigPrio.scn
+#00:00:00.00>DTNOLOOKCR 0:0:0
+#00:00:00.00>FF
+#00:00:00.00>SCHEDULE 109:00:00.00 HOLD 
+#
+#00:00:00.00>SCEN MVPDistBigPrioasas10_Heading-Ranged-Uniform-UA-Inst138-Rep3Conflicts1200sonlyMACC
+#00:00:00.00>PCALL Thomas/ConfFromSim/MVP_Heading-Ranged-Uniform-UA-Inst138-Rep3Conflicts1200sonlyMACC.scn
+#00:00:00.00>PCALL Thomas/ConfFromSim/areaDefiniton_20201022_22-39-16.scn
+#00:00:00.00>PCALL Thomas/ConfFromSim/settingsMVPDistBigPrio.scn
+#00:00:00.00>DTNOLOOKCR 0:0:0
+#00:00:00.00>FF
+#00:00:00.00>SCHEDULE 184:00:00.00 HOLD 
+#
+#00:00:00.00>SCEN MVPDistasas10_Heading-Ranged-Uniform-UA-Inst138-Rep1Conflicts1200sonlyMACC
+#00:00:00.00>PCALL Thomas/ConfFromSim/MVP_Heading-Ranged-Uniform-UA-Inst138-Rep1Conflicts1200sonlyMACC.scn
+#00:00:00.00>PCALL Thomas/ConfFromSim/areaDefiniton_20201022_22-39-16.scn
+#00:00:00.00>PCALL Thomas/ConfFromSim/settingsMVPDist.scn
+#00:00:00.00>DTNOLOOKCR 0:0:0
+#00:00:00.00>FF
+#00:00:00.00>SCHEDULE 149:00:00.00 HOLD 
+#
+#00:00:00.00>SCEN MVPDistasas10_Heading-Ranged-Uniform-UA-Inst138-Rep2Conflicts1200sonlyMACC
+#00:00:00.00>PCALL Thomas/ConfFromSim/MVP_Heading-Ranged-Uniform-UA-Inst138-Rep2Conflicts1200sonlyMACC.scn
+#00:00:00.00>PCALL Thomas/ConfFromSim/areaDefiniton_20201022_22-39-16.scn
+#00:00:00.00>PCALL Thomas/ConfFromSim/settingsMVPDist.scn
+#00:00:00.00>DTNOLOOKCR 0:0:0
+#00:00:00.00>FF
+#00:00:00.00>SCHEDULE 109:00:00.00 HOLD 
+#
+#00:00:00.00>SCEN MVPDistasas10_Heading-Ranged-Uniform-UA-Inst138-Rep3Conflicts1200sonlyMACC
+#00:00:00.00>PCALL Thomas/ConfFromSim/MVP_Heading-Ranged-Uniform-UA-Inst138-Rep3Conflicts1200sonlyMACC.scn
+#00:00:00.00>PCALL Thomas/ConfFromSim/areaDefiniton_20201022_22-39-16.scn
+#00:00:00.00>PCALL Thomas/ConfFromSim/settingsMVPDist.scn
+#00:00:00.00>DTNOLOOKCR 0:0:0
+#00:00:00.00>FF
+#00:00:00.00>SCHEDULE 184:00:00.00 HOLD 
+#
+#00:00:00.00>SCEN MVPTimeasas10_Heading-Ranged-Uniform-UA-Inst138-Rep1Conflicts1200sonlyMACC
+#00:00:00.00>PCALL Thomas/ConfFromSim/MVP_Heading-Ranged-Uniform-UA-Inst138-Rep1Conflicts1200sonlyMACC.scn
+#00:00:00.00>PCALL Thomas/ConfFromSim/areaDefiniton_20201022_22-39-16.scn
+#00:00:00.00>PCALL Thomas/ConfFromSim/settingsMVPTime.scn
+#00:00:00.00>DTNOLOOKCR 0:0:0
+#00:00:00.00>FF
+#00:00:00.00>SCHEDULE 149:00:00.00 HOLD 
+#
+#00:00:00.00>SCEN MVPTimeasas10_Heading-Ranged-Uniform-UA-Inst138-Rep2Conflicts1200sonlyMACC
+#00:00:00.00>PCALL Thomas/ConfFromSim/MVP_Heading-Ranged-Uniform-UA-Inst138-Rep2Conflicts1200sonlyMACC.scn
+#00:00:00.00>PCALL Thomas/ConfFromSim/areaDefiniton_20201022_22-39-16.scn
+#00:00:00.00>PCALL Thomas/ConfFromSim/settingsMVPTime.scn
+#00:00:00.00>DTNOLOOKCR 0:0:0
+#00:00:00.00>FF
+#00:00:00.00>SCHEDULE 109:00:00.00 HOLD 
+#
+#00:00:00.00>SCEN MVPTimeasas10_Heading-Ranged-Uniform-UA-Inst138-Rep3Conflicts1200sonlyMACC
+#00:00:00.00>PCALL Thomas/ConfFromSim/MVP_Heading-Ranged-Uniform-UA-Inst138-Rep3Conflicts1200sonlyMACC.scn
+#00:00:00.00>PCALL Thomas/ConfFromSim/areaDefiniton_20201022_22-39-16.scn
+#00:00:00.00>PCALL Thomas/ConfFromSim/settingsMVPTime.scn
+#00:00:00.00>DTNOLOOKCR 0:0:0
+#00:00:00.00>FF
+#00:00:00.00>SCHEDULE 184:00:00.00 HOLD 
+#
+#00:00:00.00>SCEN MVPTimeBigPrioasas10_Heading-Ranged-Uniform-UA-Inst138-Rep1Conflicts1200sonlyMACC
+#00:00:00.00>PCALL Thomas/ConfFromSim/MVP_Heading-Ranged-Uniform-UA-Inst138-Rep1Conflicts1200sonlyMACC.scn
+#00:00:00.00>PCALL Thomas/ConfFromSim/areaDefiniton_20201022_22-39-16.scn
+#00:00:00.00>PCALL Thomas/ConfFromSim/settingsMVPTimeBigPrio.scn
+#00:00:00.00>DTNOLOOKCR 0:0:0
+#00:00:00.00>FF
+#00:00:00.00>SCHEDULE 149:00:00.00 HOLD 
+#
+#00:00:00.00>SCEN MVPTimeBigPrioasas10_Heading-Ranged-Uniform-UA-Inst138-Rep2Conflicts1200sonlyMACC
+#00:00:00.00>PCALL Thomas/ConfFromSim/MVP_Heading-Ranged-Uniform-UA-Inst138-Rep2Conflicts1200sonlyMACC.scn
+#00:00:00.00>PCALL Thomas/ConfFromSim/areaDefiniton_20201022_22-39-16.scn
+#00:00:00.00>PCALL Thomas/ConfFromSim/settingsMVPTimeBigPrio.scn
+#00:00:00.00>DTNOLOOKCR 0:0:0
+#00:00:00.00>FF
+#00:00:00.00>SCHEDULE 109:00:00.00 HOLD 
+#
+#00:00:00.00>SCEN MVPTimeBigPrioasas10_Heading-Ranged-Uniform-UA-Inst138-Rep3Conflicts1200sonlyMACC
+#00:00:00.00>PCALL Thomas/ConfFromSim/MVP_Heading-Ranged-Uniform-UA-Inst138-Rep3Conflicts1200sonlyMACC.scn
+#00:00:00.00>PCALL Thomas/ConfFromSim/areaDefiniton_20201022_22-39-16.scn
+#00:00:00.00>PCALL Thomas/ConfFromSim/settingsMVPTimeBigPrio.scn
+#00:00:00.00>DTNOLOOKCR 0:0:0
+#00:00:00.00>FF
+#00:00:00.00>SCHEDULE 184:00:00.00 HOLD 
+#
+#00:00:00.00>SCEN MVPSFNAasas10_Heading-Ranged-Uniform-UA-Inst138-Rep1Conflicts1200sonlyMACC
+#00:00:00.00>PCALL Thomas/ConfFromSim/MVP_Heading-Ranged-Uniform-UA-Inst138-Rep1Conflicts1200sonlyMACC.scn
+#00:00:00.00>PCALL Thomas/ConfFromSim/areaDefiniton_20201022_22-39-16.scn
+#00:00:00.00>PCALL Thomas/ConfFromSim/settingsMVPSFNA.scn
+#00:00:00.00>DTNOLOOKCR 0:0:0
+#00:00:00.00>FF
+#00:00:00.00>SCHEDULE 149:00:00.00 HOLD 
+#
+#00:00:00.00>SCEN MVPSFNAasas10_Heading-Ranged-Uniform-UA-Inst138-Rep2Conflicts1200sonlyMACC
+#00:00:00.00>PCALL Thomas/ConfFromSim/MVP_Heading-Ranged-Uniform-UA-Inst138-Rep2Conflicts1200sonlyMACC.scn
+#00:00:00.00>PCALL Thomas/ConfFromSim/areaDefiniton_20201022_22-39-16.scn
+#00:00:00.00>PCALL Thomas/ConfFromSim/settingsMVPSFNA.scn
+#00:00:00.00>DTNOLOOKCR 0:0:0
+#00:00:00.00>FF
+#00:00:00.00>SCHEDULE 109:00:00.00 HOLD 
+#
+#00:00:00.00>SCEN MVPSFNAasas10_Heading-Ranged-Uniform-UA-Inst138-Rep3Conflicts1200sonlyMACC
+#00:00:00.00>PCALL Thomas/ConfFromSim/MVP_Heading-Ranged-Uniform-UA-Inst138-Rep3Conflicts1200sonlyMACC.scn
+#00:00:00.00>PCALL Thomas/ConfFromSim/areaDefiniton_20201022_22-39-16.scn
+#00:00:00.00>PCALL Thomas/ConfFromSim/settingsMVPSFNA.scn
+#00:00:00.00>DTNOLOOKCR 0:0:0
+#00:00:00.00>FF
+#00:00:00.00>SCHEDULE 184:00:00.00 HOLD 
+#
+#00:00:00.00>SCEN MVPBFNAasas10_Heading-Ranged-Uniform-UA-Inst138-Rep1Conflicts1200sonlyMACC
+#00:00:00.00>PCALL Thomas/ConfFromSim/MVP_Heading-Ranged-Uniform-UA-Inst138-Rep1Conflicts1200sonlyMACC.scn
+#00:00:00.00>PCALL Thomas/ConfFromSim/areaDefiniton_20201022_22-39-16.scn
+#00:00:00.00>PCALL Thomas/ConfFromSim/settingsMVPBFNA.scn
+#00:00:00.00>DTNOLOOKCR 0:0:0
+#00:00:00.00>FF
+#00:00:00.00>SCHEDULE 149:00:00.00 HOLD 
+#
+#00:00:00.00>SCEN MVPBFNAasas10_Heading-Ranged-Uniform-UA-Inst138-Rep2Conflicts1200sonlyMACC
+#00:00:00.00>PCALL Thomas/ConfFromSim/MVP_Heading-Ranged-Uniform-UA-Inst138-Rep2Conflicts1200sonlyMACC.scn
+#00:00:00.00>PCALL Thomas/ConfFromSim/areaDefiniton_20201022_22-39-16.scn
+#00:00:00.00>PCALL Thomas/ConfFromSim/settingsMVPBFNA.scn
+#00:00:00.00>DTNOLOOKCR 0:0:0
+#00:00:00.00>FF
+#00:00:00.00>SCHEDULE 109:00:00.00 HOLD 
+#
+#00:00:00.00>SCEN MVPBFNAasas10_Heading-Ranged-Uniform-UA-Inst138-Rep3Conflicts1200sonlyMACC
+#00:00:00.00>PCALL Thomas/ConfFromSim/MVP_Heading-Ranged-Uniform-UA-Inst138-Rep3Conflicts1200sonlyMACC.scn
+#00:00:00.00>PCALL Thomas/ConfFromSim/areaDefiniton_20201022_22-39-16.scn
+#00:00:00.00>PCALL Thomas/ConfFromSim/settingsMVPBFNA.scn
+#00:00:00.00>DTNOLOOKCR 0:0:0
+#00:00:00.00>FF
+#00:00:00.00>SCHEDULE 184:00:00.00 HOLD 
+#
+#00:00:00.00>SCEN MVPasas10_Heading-Ranged-Uniform-UA-Inst138-Rep1Conflicts1200sonlyMACC
+#00:00:00.00>PCALL Thomas/ConfFromSim/MVP_Heading-Ranged-Uniform-UA-Inst138-Rep1Conflicts1200sonlyMACC.scn
+#00:00:00.00>PCALL Thomas/ConfFromSim/areaDefiniton_20201022_22-39-16.scn
+#00:00:00.00>PCALL Thomas/ConfFromSim/settingsMVP.scn
+#00:00:00.00>DTNOLOOKCR 0:0:0
+#00:00:00.00>FF
+#00:00:00.00>SCHEDULE 149:00:00.00 HOLD 
+#
+#00:00:00.00>SCEN MVPasas10_Heading-Ranged-Uniform-UA-Inst138-Rep2Conflicts1200sonlyMACC
+#00:00:00.00>PCALL Thomas/ConfFromSim/MVP_Heading-Ranged-Uniform-UA-Inst138-Rep2Conflicts1200sonlyMACC.scn
+#00:00:00.00>PCALL Thomas/ConfFromSim/areaDefiniton_20201022_22-39-16.scn
+#00:00:00.00>PCALL Thomas/ConfFromSim/settingsMVP.scn
+#00:00:00.00>DTNOLOOKCR 0:0:0
+#00:00:00.00>FF
+#00:00:00.00>SCHEDULE 109:00:00.00 HOLD 
+#
+#00:00:00.00>SCEN MVPasas10_Heading-Ranged-Uniform-UA-Inst138-Rep3Conflicts1200sonlyMACC
+#00:00:00.00>PCALL Thomas/ConfFromSim/MVP_Heading-Ranged-Uniform-UA-Inst138-Rep3Conflicts1200sonlyMACC.scn
+#00:00:00.00>PCALL Thomas/ConfFromSim/areaDefiniton_20201022_22-39-16.scn
+#00:00:00.00>PCALL Thomas/ConfFromSim/settingsMVP.scn
+#00:00:00.00>DTNOLOOKCR 0:0:0
+#00:00:00.00>FF
+#00:00:00.00>SCHEDULE 184:00:00.00 HOLD 

@@ -174,7 +174,7 @@ class MVP(ConflictResolution):
         return dv1, dv2
 
 
-    def resolve(self, conf, ownship, intruder):
+    def resolve(self, conf, ownship, intruder,):
         ''' Resolve all current conflicts '''
         # Initialize an array to store the resolution velocity vector for all A/C
         dv = np.zeros((ownship.ntraf, 3))
@@ -183,13 +183,13 @@ class MVP(ConflictResolution):
         timesolveV = np.ones(ownship.ntraf) * 1e9
 
         # Call MVP function to resolve conflicts-----------------------------------
-        for ((ac1, ac2), qdr, dist, tcpa, tLOS) in zip(conf.confpairs, conf.qdr, conf.dist, conf.tcpa, conf.tLOS):
+        for ((ac1, ac2), qdr, dist, tcpa, tLOS, nolook) in zip(conf.confpairs, conf.qdr, conf.dist, conf.tcpa, conf.tLOS,conf.nolook):
             idx1 = ownship.id.index(ac1)
             idx2 = intruder.id.index(ac2)
 
             # If A/C indexes are found, then apply MVP on this conflict pair
             # Because ADSB is ON, this is done for each aircraft separately
-            if idx1 >-1 and idx2 > -1:
+            if idx1 >-1 and idx2 > -1 and nolook==False:
                 dv_mvp, tsolV = self.MVP(ownship, intruder, conf, qdr, dist, tcpa, tLOS, idx1, idx2)
                 if tsolV < timesolveV[idx1]:
                     timesolveV[idx1] = tsolV
@@ -278,7 +278,10 @@ class MVP(ConflictResolution):
         # using the auto pilot vertical speed (ownship.avs) using the code in line 106 (asasalttemp) when only
         # horizontal resolutions are allowed.
         alt = alt * (1 - self.swresohoriz) + ownship.selalt * self.swresohoriz
-        return newtrack, newgscapped, vscapped, alt
+        #print(conf.confpairs)
+        #print(newtrack)
+        #print(newgscapped)
+        return newtrack, newgscapped, vscapped, alt, dv
 
     def MVP(self, ownship, intruder, conf, qdr, dist, tcpa, tLOS, idx1, idx2):
         """Modified Voltage Potential (MVP) resolution method"""
@@ -360,5 +363,8 @@ class MVP(ConflictResolution):
 
         # combine the dv components
         dv = np.array([dv1,dv2,dv3])
+
+        #Cooperative solution
+        dv=dv*0.5
 
         return dv, tsolV

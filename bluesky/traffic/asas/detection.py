@@ -30,6 +30,7 @@ class ConflictDetection(Entity, replaceable=True):
         self.dcpa = np.array([])
         self.tcpa = np.array([])
         self.tLOS = np.array([])
+
         # Unique conflicts and LoS in the current timestep (a, b) = (b, a)
         self.confpairs_unique = set()
         self.lospairs_unique = set()
@@ -37,6 +38,9 @@ class ConflictDetection(Entity, replaceable=True):
         # All conflicts and LoS since simt=0
         self.confpairs_all = list()
         self.lospairs_all = list()
+
+
+        self.nolook = np.array([], dtype=np.bool)
 
         # Per-aircraft conflict data
         with self.settrafarrays():
@@ -132,9 +136,18 @@ class ConflictDetection(Entity, replaceable=True):
             return True, f'DTNOLOOK[time]\nCurrent value: {self.dtasas: .1f} sec'
         self.dtnolook = time
         return True, f'Setting CD no-look to {time} sec'
+#
+#    @command(name='DTASAS')
+#    def setdtnolook(self, time : 'time' = -1.0):
+#        ''' Set dt asas. '''
+#        if time < 0.0:
+#            return True, f'DT ASAS[time]\nCurrent value: {self.dtasas: .1f} sec'
+#        bs.settings.asas_dt= time
+#        return True, f'Setting CD no-look to {time} sec'
 
     def update(self, ownship, intruder):
         ''' Perform an update step of the Conflict Detection implementation. '''
+#        print('update')
         self.confpairs, self.lospairs, self.inconf, self.tcpamax, self.qdr, \
             self.dist, self.dcpa, self.tcpa, self.tLOS = \
                 self.detect(ownship, intruder, self.rpz, self.hpz, self.dtlookahead)
